@@ -44,3 +44,37 @@ while True:
 print(result)
 ```
 
+
+
+### 지뢰찾기(Minesweeper)
+
+```python
+row, col = map(int, input().split())
+matrix = []
+for i in range(row):
+    matrix.append(list(input()))
+
+print('입력 결과 확인:')
+for i in matrix:
+    for j in i:
+        print(j, end='')
+    print()
+print('입력 결과 수정 후:')
+for i in range(row):
+    for j in range(col):
+        if matrix[i][j] == '*':
+            print(matrix[i][j], end='')
+        else:
+            count = 0
+            for x in range(i-1, i+2):
+                for y in range(j-1, j+2):
+                    if x <0 or y < 0 or x >= row or y >= col:
+                        continue
+                    elif matrix[x][y] == '*':
+                        count += 1
+            print(count, end='')
+    print()
+# 실행 결과
+
+```
+
