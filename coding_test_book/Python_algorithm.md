@@ -5,8 +5,11 @@
 * 손님에게 거슬러 줘야 할 돈이 N원일 때 거슬러줘야 할 동전의 최소 개수를 구하라. 단, 거슬러 줘야 할 돈 N은 항상 10의 배수이다.
 
 ```python
+# 거슬러 줘야 할 동전의 최소 개수를 구하라.
+# 거스름돈 총 금액
 n = 1260
 count = 0	# 동전의 개수 넣을 변수
+# 큰 단위의 화폐부터 차례대로 확인
 coin_types = [500, 100, 50, 10]
 for coin in coin_types:
     count += n // coin
@@ -76,5 +79,50 @@ for i in range(row):
     print()
 # 실행 결과
 
+```
+
+
+
+### 숫자 카드 게임
+
+* 숫자 카드 조건
+
+1. 숫자가 쓰인 카드들이 N X M 형태로 놓여 있다. 이때 N: 행의 개수 M: 열의 개수
+2. 먼저 뽑고자 하는 카드가 포함되어 있는 행을 선택
+3. 선택된 행에 포함된 카드들 중 가장 숫자가 낮은 카드를 뽑아야 한다.
+4. 처음에 카드를 골라낼 행을 선택할 때, 이후에 가장 숫자가 낮은 카드를 뽑을 것을 고려하여 최종적으로 가장 높은 숫자의 카드를 뽑을 수 있도록 전략을 세워야 한다.
+
+```python
+n, m = map(int, input().split())
+
+# 책의 방법
+result = 0
+for i in range(n):
+    data = list(map(int, input().split()))
+    min_val = min(data)
+    result = max(result, min_val)
+print('결과:', result)
+
+# 나의 방법
+matrix = []
+for i in range(n):
+    matrix.append(list(map(int, input().split())))
+# 입력 결과 확인
+print('입력 결과 확인:')
+for i in matrix:
+    for j in i:
+        print(j, end=' ')
+    print()
+# 검사
+min = 0
+min_list = []
+for i in range(n):
+    min = matrix[i][0]
+    print('min', min)
+    for j in range(m):
+        if matrix[i][j] < min:
+            min = matrix[i][j]
+    min_list.append(min)
+print(max(min_list))
 ```
 
