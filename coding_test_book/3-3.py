@@ -8,7 +8,6 @@ for i in range(n):
     result = max(result, min_val)
 print('결과:', result)
 
-
 # 나의 방법
 matrix = []
 for i in range(n):
