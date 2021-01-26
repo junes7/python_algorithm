@@ -1,18 +1,5 @@
-n, m, k = map(int, input().split())
-data = list(map(int, input().split()))
+# 큰 수의 법칙
+# 입력으로 주어지는 K는 항상 M보다 작거나 같다.
 
-data.sort()
-first = data[n-1]
-second = data[n-2]
-result = 0
-while True:
-    for i in range(k):
-        if m == 0:
-            break
-        result += first
-        m -= 1
-    if m == 0:
-        break
-    result += second
-    m -= 1
-print(result)
+
+
