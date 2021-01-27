@@ -1,3 +1,4 @@
+# min() 함수를 이용하는 답안
 n, m = map(int, input().split())
 
 # 책의 방법

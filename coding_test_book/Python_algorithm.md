@@ -93,17 +93,8 @@ for i in range(row):
 4. 처음에 카드를 골라낼 행을 선택할 때, 이후에 가장 숫자가 낮은 카드를 뽑을 것을 고려하여 최종적으로 가장 높은 숫자의 카드를 뽑을 수 있도록 전략을 세워야 한다.
 
 ```python
-n, m = map(int, input().split())
-
-# 책의 방법
-result = 0
-for i in range(n):
-    data = list(map(int, input().split()))
-    min_val = min(data)
-    result = max(result, min_val)
-print('결과:', result)
-
 # 나의 방법
+n, m = map(int, input().split())
 matrix = []
 for i in range(n):
     matrix.append(list(map(int, input().split())))
@@ -124,5 +115,55 @@ for i in range(n):
             min = matrix[i][j]
     min_list.append(min)
 print(max(min_list))
+
+# 책의 방법
+# min() 함수를 이용하는 답안
+n, m = map(int, input().split())
+result = 0
+for i in range(n):
+    data = list(map(int, input().split()))
+    min_val = min(data)
+    result = max(result, min_val)
+print('결과:', result)
+# 2중 반복문 구조를 이용하는 답안 예시
+n, m = map(int, input().split())
+result = 0
+for i in range(n):
+    data = list(map(int, input().split()))
+    min_val = 1000
+    for a in data:
+        min_val = min(min_val, a)
+    result = max(result, min_val)
+print(result)
+```
+
+
+
+### 1이 될 때까지
+
+* N에서 1을 뺀다.
+* N을 K로 나눈다.
+
+```python
+
+
+
+
+
+
+
+```
+
+
+
+### Check Palindrome
+
+```python
+inputString = "aabaa"
+inputString = list(inputString)
+if inputString == inputString[::-1]:
+    print(True)
+else:
+    print(False)
 ```
 
