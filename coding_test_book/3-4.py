@@ -8,3 +8,11 @@ for i in range(n):
         min_val = min(min_val, a)
     result = max(result, min_val)
 print(result)
+
+# check palindrome
+inputString = "aabaa"
+inputString = list(inputString)
+if inputString == inputString[::-1]:
+    print(True)
+else:
+    print(False)
