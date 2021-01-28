@@ -216,3 +216,48 @@ print(result)
 
 
 
+### 상하좌우
+
+* 첫째 줄에 공간의 크기를 나타내는 N이 주어진다. (1 ≤ N ≤ 100)
+* 둘째 줄에 여행자 A가 이동할 계획서 내용이 주어진다. (1 ≤ 이동 횟수 ≤ 100)
+  * L: 왼쪽으로 한 칸 이동
+  * R: 오른쪽으로 한 칸 이동
+  * U: 위로 한 칸 이동
+  * D: 아래로 한 칸 이동
+
+```python
+n = int(input())
+move_plans = input().split()
+x, y = 1, 1
+dx = [0, 0, -1, 1]
+dy = [-1, 1, 0, 0]
+move_types = ['L', 'R', 'U', 'D']
+
+for plan in move_plans:
+    for i in range(len(move_types)):
+        if plan == move_types[i]:
+            nx = x + dx[i]
+            ny = y + dy[i]
+    if nx < 1 or ny < 1 or nx > n or ny > n:
+        continue
+    x, y = nx, ny
+print('최종 결과:')
+print(x, y)
+# 입력
+5
+R R R U D D
+# 실행 결과
+최종 결과:
+3 4
+```
+
+* 오류 정리: `n = input()`이라고 했을 때 `if nx < 1 or ny < 1 or nx > n or ny > n:`이 부분에서 이런 에러가 난다.
+
+```python
+Traceback (most recent call last):
+  File "4-1.py", line 12, in <module>
+    if nx < 1 or ny < 1 or nx > n or ny > n:
+TypeError: '>' not supported between instances of 'int' and 'str'
+```
+
+* 그러므로 항상 데이터 타입 체크해주고 여기는 `n = int(input())`로 수정해준다.
