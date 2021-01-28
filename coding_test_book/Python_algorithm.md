@@ -145,6 +145,7 @@ print(result)
 * N을 K로 나눈다.
 
 ```python
+# 내 풀이 방법
 n, k = map(int, input().split())
 count = 0
 while True:
@@ -164,11 +165,19 @@ print(count)
 ### Check Palindrome
 
 ```python
-inputString = "aabaa"
+# inputString = "abcba"
+inputString = "abca"
+# result = False
 inputString = list(inputString)
-if inputString == inputString[::-1]:
-    print(True)
-else:
-    print(False)
+# method 1 use if, else statement
+# if inputString == inputString[::-1]:
+#     print(True)
+# else:
+#     print(False)
+# method 2 use ternary operators(삼항 연산자)
+result = (True if inputString == inputString[::-1] else False)
+print(result)
 ```
+
+
 
