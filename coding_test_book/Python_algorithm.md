@@ -345,6 +345,7 @@ print(result)
 * 이 중에서 가장 작은 데이터를 선택해 맨 앞에 있는 데이터와 바꾸고, 그 다음 작은 데이터를 선택해 앞에서 두 번째 데이터와 바꾸는 과정을 반복하면 어떨까? → 가장 작은 것을 선택
 
 ```python
+# Selection Sort
 array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
 for i in range(len(array)):
     min_idx = i
@@ -359,7 +360,25 @@ print(array)
 
 
 
+### 삽입 정렬(Insertion Sort)
 
+* 데이터를 하나씩 확인하며, 각 데이터를 적절한 위치에 삽입
+
+* 자기보다 작은 데이터를 만나면 그 위치에서 멈춤
+
+```python
+# Insertion Sort
+array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+for i in range(1, len(array)):
+    for j in range(i, 0, -1):
+        if array[j] < array[j-1]:
+            array[j], array[j-1] = array[j-1], array[j]
+        else:
+            break
+print(array)
+# 실행 결과
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
 
 
 
