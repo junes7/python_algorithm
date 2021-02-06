@@ -428,3 +428,7 @@ for i in range(len(count)):
 
 ```
 
+
+
+### Sequential Search(순차탐색)
+
