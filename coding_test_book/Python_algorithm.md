@@ -432,3 +432,29 @@ for i in range(len(count)):
 
 ### Sequential Search(순차탐색)
 
+```python
+
+
+
+
+
+```
+
+
+
+
+
+### 이진탐색(Binary Search)
+
+```python
+
+if start > end:
+    return None
+
+
+```
+
+
+
+
+
