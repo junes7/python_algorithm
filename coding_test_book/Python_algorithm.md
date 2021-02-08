@@ -340,6 +340,100 @@ print(result)
 
 
 
+### DFS(Depth First Search)
+
+* 깊이 우선 탐색이라고도 부르며, 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘이다.
+
+* 그래프(Graph)의 기본 구조는 노드(Node)와 간선(Edge)으로 표현되며 이때 노드를 정점(Vertex)이라고도 말한다.
+
+* 프로그래밍에서 그래프는 크게 2가지 방식으로 표현할 수 있는데 코딩 테스트에서는 이 두 방식 모두 필요하니 두 개념에 대해 바르게 알고 있도록 하자.
+
+  * 인접 행렬(Adjacency Matrix): 2차원 배열로 그래프의 연결 관계를 표현하는 방식
+
+  * 인접 리스트(Adjacency List): 리스트로 그래프의 연결 관계를 표현하는 방식
+
+```python
+# example of Adjacency Matrix
+INF = 999999999
+
+# 2차원 리스트를 이용해 인접 행렬 표현
+graph = [
+    [0, 7, 5],
+    [7, 0, INF],
+    [5, INF, 0]
+]
+
+print(graph)
+
+# example of Adjacency List
+# 행(row)이 3개인 2차원 리스트로 인접 리스트 표현
+graph = [[] for _ in range(3)]
+
+# 노드 0에 연결된 노드 정보 저장(노드, 거리)
+graph[0].append((1, 7))
+graph[0].append((2, 5))
+
+# 노드 1에 연결된 노드 정보 저장(노드, 거리)
+graph[1].append((0, 7))
+# 노드 2에 연결된 노드 정보 저장(노드, 거리)
+graph[2].append((0, 5))
+
+print(graph)
+
+```
+
+
+
+* DFS를 이용해 노드의 탐색 순서 구하기
+
+```python
+# DFS 메서드 정의
+def dfs(graph, v, visited):
+    # 현재 노드를 방문 처리
+    visited[v] = True
+    print(v, end=' ')
+    # 현재 노드와 연결된 다른 노드르르 재귀적으로 방문
+    for i in graph[v]:
+        if not visited[i]:
+            dfs(graph, i, visited)
+
+# 각 노드가 연결된 정보를 리스트 자료형으로 표현(2차원 리스트)
+graph = [
+    [],
+    [2, 3, 8],
+    [1, 7],
+    [1, 4, 5],
+    [3, 5],
+    [3, 4],
+    [7],
+    [2, 6, 8],
+    [1, 7]
+]
+
+# 각 노드가 방문된 정보를 리스트 자료형으로 표현(1차원 리스트)
+visited = [False] * 9
+# 정의된 DFS 함수 호출
+dfs(graph, 1, visited)
+```
+
+
+
+### BFS(Breadth First Search)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 선택 정렬(Selection Sort)
 
 * 이 중에서 가장 작은 데이터를 선택해 맨 앞에 있는 데이터와 바꾸고, 그 다음 작은 데이터를 선택해 앞에서 두 번째 데이터와 바꾸는 과정을 반복하면 어떨까? → 가장 작은 것을 선택
