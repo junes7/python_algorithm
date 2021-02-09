@@ -10,3 +10,9 @@ array = sorted(array, key=lambda student: student[1], reverse=True)
 # 정렬이 수행된 결과를 출력
 for student in array:
     print(student[0], end=' ')
+
+
+# 세트에서 임의의 요소 삭제하기
+a = {1, 2, 3, 4}
+a.pop()
+print(a)
