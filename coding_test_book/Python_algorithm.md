@@ -474,18 +474,6 @@ bfs(graph, 1, visited)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### 선택 정렬(Selection Sort)
 
 * 이 중에서 가장 작은 데이터를 선택해 맨 앞에 있는 데이터와 바꾸고, 그 다음 작은 데이터를 선택해 앞에서 두 번째 데이터와 바꾸는 과정을 반복하면 어떨까? → 가장 작은 것을 선택
@@ -560,7 +548,7 @@ print(array)
 
 
 
-### 계수 정렬
+### 계수 정렬(Counting sort)
 
 ```python
 # 모든 원소의 값이 0보다 크거나 같다고 가정
@@ -598,8 +586,6 @@ array = input().split()
 
 print(sequential_search(n, target, array))
 ```
-
-
 
 
 
