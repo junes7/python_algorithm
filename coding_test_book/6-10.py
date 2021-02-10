@@ -12,7 +12,3 @@ for student in array:
     print(student[0], end=' ')
 
 
-# 세트에서 임의의 요소 삭제하기
-a = {1, 2, 3, 4}
-a.pop()
-print(a)
