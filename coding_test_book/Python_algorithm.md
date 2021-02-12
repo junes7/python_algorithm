@@ -698,7 +698,6 @@ print(fibo(4))
 
 ```python
 d = [0] * 100
-
 def fibo(x):
     if x == 1 or x == 2:
         return 1
@@ -710,4 +709,19 @@ print(fibo(99))
 ```
 
 
+
+* 피보나치 수열 반복적 소스코드
+
+```python
+d = [0] * 100
+d[1] = 1
+d[2] = 1
+n = 6
+for i in range(3, n+1):
+    d[i] = d[i-1] + d[i-2]
+
+print(d[n])
+# 실행 결과
+8
+```
 
