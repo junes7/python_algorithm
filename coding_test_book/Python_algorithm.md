@@ -799,7 +799,11 @@ print(d[n-1])
 * 단계마다 '방문하지 않은 노드 중에서 최단 거리가 가장 짧은 노드를 선택'하기 위해 매 단계마다 1차원 리스트의 모든 원소를 확인(순차 탐색)한다.
 
 ```python
+import sys
+input = sys.stdin.readline
+INF = int(1e9)
 
+# 노드의 개수, 간선의 개수 
 
 
 
