@@ -1424,3 +1424,58 @@ def topology_sort():
 topology_sort()
 ```
 
+
+
+## 기타 알고리즘
+
+### prime number(소수)인지 검사하기
+
+```python
+# 시간 복잡도 O(x)
+def is_prime_number(x):
+    for i in range(2, x):
+        if x % i == 0:
+            return False
+    return True
+
+print(is_prime_number(4))
+print(is_prime_number(7))
+
+# 시간 복잡도 O(x^(1/2))
+import math
+def is_prime_number_1(x):
+    for i in range(2, int(math.sqrt(x))+1):
+        if x % i == 0:
+            return False
+    return True
+print(is_prime_number_1(4))
+print(is_prime_number_1(7))
+```
+
+
+
+### 에라토스테네스의 체(Eratosthenes' sieve)
+
+* 소수를 찾는 방법 중 하나이다.
+
+```python
+# Eratosthenes' sieve(에라토스테네스의 체)
+import math
+n = int(input('정수를 입력해주세요:'))
+array = [True for i in range(n+1)]
+# 에라토스테네스의 체 알고리즘
+for i in range(2, int(math.sqrt(n))+1):
+    if array[i] == True:
+        j = 2
+        while i * j <= n:
+            array[i * j] = False
+            j += 1
+# 소수 출력하기
+for i in range(2, n+1):
+    if array[i] == True:
+        print(i, end=' ')
+# 실행 결과
+정수를 입력해주세요:26
+2 3 5 7 11 13 17 19 23
+```
+
