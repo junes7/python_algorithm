@@ -1580,7 +1580,7 @@ for i in result:
 
 
 
-### 구간 합 빠르게 계산하기 알고리즘
+### 구간 합 빠르게 계산하기 알고리즘(calculate interval sum quickly)
 
 
 
@@ -1613,12 +1613,26 @@ left = 3
 right = 4
 print(prefix_sum[right] - prefix_sum[left - 1])
 
-
 ```
 
 
 
-### 순열과 조합
+### 순열과 조합(Permutation and Combination)
+
+* 파이썬은 순열과 조합 라이브러리를 기본적으로 제공하고 있으므로 이를 간단히 이용할 수 있다.
+
+```python
+import itertools
+# 순열
+data = [1, 2]
+for x in itertools.permutations(data, 2):
+    print(list(x), end=' ')
+print()
+# 조합
+data1 = [1, 2, 3]
+for x in itertools.combinations(data1, 2):
+    print(list(x), end=' ')
+```
 
 
 
