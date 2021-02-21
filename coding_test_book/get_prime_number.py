@@ -2,7 +2,9 @@
 import math
 m, n = map(int, input().split())
 
-array = [True for i in range(n+1)]
+array = [True for i in range(1000001)]
+# 1은 소수가 아니다.
+array[1] = 0
 
 for i in range(2, int(math.sqrt(n))+1):
     if array[i] == True:
@@ -11,7 +13,6 @@ for i in range(2, int(math.sqrt(n))+1):
             array[i * j] = False
             j += 1
 
-for i in range(m, n+1):
+for i in range(m, n + 1):
     if array[i] == True:
         print(i)
-        
