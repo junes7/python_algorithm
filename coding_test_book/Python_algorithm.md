@@ -1678,8 +1678,6 @@ for i in range(m, n+1):
 
 ### 암호 만들기(create passwords)
 
-
-
 * 바로 어제 최백준 조교가 방 열쇠를 주머니에 넣은 채 깜빡하고 서울로 가버리는 황당한 상황에 직면한 조교들은 702호에 새로운 보안 시스템을 설치하기로 하였다. 이 보안 시스템은 열쇠가 아닌 암호로 동작하는 시스템이다.
 * 암호는 서로 다른 L개의 알파벳 소문자들로 구성되며 최소 한 개의 모음과 최소 두 개의 자음으로 구성되어 있다고 알려져 있다. 또한 정렬된 문자열을 선호하는 조교들의 성향으로 미루어보아 암호를 이루는 알파벳이 암호에서 증가하는 순서로 배열되었을 것이라고 추측된다. 즉, abc는 가능성이 있는 암호이지만 bac는 그렇지 않다.
 * 새 보안 시스템에서 조교들이 암호로 사용했을 법한 문자의 종류는 C가지가 있다고 한다. 이 알파벳을 입수한 민식, 영식 형제는 조교들의 방에 침투하기 위해 암호를 추측해보려고 한다. C개의 문자들이 모두 주어졌을 때, 가능성 있는 암호들을 모두 구하는 프로그램을 작성하시오.
@@ -1701,24 +1699,42 @@ for i in range(m, n+1):
 ```python
 # 암호 만들기
 from itertools import combinations
+# 5개의 모음 정의
 vowels = ('a', 'e', 'i', 'o', 'u')
 l, c = map(int, input().split())
 # 모음 갯수는 변하지 않으니깐 튜플 형태로 만들어준다.
+# 가능한 암호를 사전식으로 출력해야 하므로 입력 이후에 정렬 수행
 array = input().split()
 array.sort()
-
+# 길이가 l인 모든 암호 조합을 확인
 for password in combinations(array, l):
-    print(password)
+    # 패스워드에 포함된 각 문자를 확인하며 모음의 개수를 세기
     count = 0
     for i in password: 
         if i in vowels:
             count += 1
-    if count >= 1 and count <= 1 - 2:
+    # 최소 1개의 모음과 최소 2개의 자음이 있는 경우 출력
+    if count >= 1 and count <= l - 2:
         password = list(password)
-        print(''.join(password))
+        print("".join(password))
 
 # 입력
 4 6
 a t c i s w
+# 실행 결과
+acis
+acit
+aciw
+acst
+acsw
+actw
+aist
+aisw
+aitw
+astw
+cist
+cisw
+citw
+istw
 ```
 
