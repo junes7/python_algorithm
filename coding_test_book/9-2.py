@@ -40,7 +40,7 @@ def dijkstra(start):
                 distance[i[0]] = cost
                 heapq.heappush(q, (cost, i[0]))
 
-# 다익스트라 알고리즘을 수행
+# 다익스트라 알고리즘을 수행하는 구간
 dijkstra(start)
 # 모든 노드로 가기 위한 최단 거리를 출력
 for i in range(1, n + 1):

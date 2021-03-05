@@ -1,6 +1,6 @@
 # DFS 메서드 정의
 def dfs(graph, v, visited):
-    # 현재 노드를 방문 처리
+    # 현재 노드를 방문 처리 중
     visited[v] = True
     print(v, end=' ')
     # 현재 노드와 연결된 다른 노드르르 재귀적으로 방문
