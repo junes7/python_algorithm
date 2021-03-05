@@ -1,4 +1,4 @@
-# sequential search
+# sequential search (순서 정렬)
 def sequential_search(n, target, array):
     for i in range(n):
         if array[i] == target:
