@@ -1,3 +1,4 @@
+# 바이너리 서치
 def binary_search(array, target , start, end):
     if start > end:
         return None
