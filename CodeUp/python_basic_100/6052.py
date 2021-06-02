@@ -6,7 +6,7 @@ a = int(input())
 if a != 0:
     print(True)
 else:
-    print(False)   
+    print(False)
 # method 2
 # a = int(input())
 # print(True if a != 0 else False)
