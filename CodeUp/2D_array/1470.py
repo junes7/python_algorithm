@@ -1,5 +1,6 @@
 # 2차원 배열 지그재그 채우기 2-3
 # 입력이 n인 경우 n*n 크기 배열 지그재그로 채우기
+# method 1
 n = int(input())
 b = []
 for i in range(n):
