@@ -1,4 +1,4 @@
-# love 2(print I love you when the input word is love)
+# love 2(print number of love word)
 # 영어 문장이 입력된다. 그 문장에서 love 가 몇 번 나오는지 출력하시오.
 # method 1
 s = input()
