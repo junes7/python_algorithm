@@ -6,6 +6,7 @@
 # 누적 합을 만들어 출력해보자.
 # 첫째 줄에 배열의 크기 n, m과 구간의 개수 k가 공백을 두고 입력된다.
 # 둘째 줄부터 k개의 데이터가 공백을 두고 입력된다.
+# method 1
 n, m, k = map(int, input().split())
 d = [[0] * 1010 for i in range(1010)]
 for i in range(k):
