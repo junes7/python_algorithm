@@ -1,4 +1,4 @@
-# int의 범위(range of integers)
+# int의 범위(minimum and maximum value of integers with hexadecimal expression)
 # 앞으로 많이 사용될 변수 int 자료형의 범위를 알아내는 것이 이번 문제이다.
 # int는 정수형이고 32비트 자료형이다. 2진수로 나타내면 가장 작은 숫자는
 # 10000000 00000000 00000000 00000000 이고, 가장 큰 숫자는 
