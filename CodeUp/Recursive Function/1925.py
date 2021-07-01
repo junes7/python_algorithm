@@ -1,4 +1,4 @@
-# n_C_r (Small)
+# n_C_r (combination 조합) (Small)
 # n_C_r은 n개의 원소를 가지는 집합에서 r개의 부분 집합을 고르는 조합의 수를
 # 말한다. n_C_r을 구하는 프로그램을 작성하시오.
 # method 1 with memoization
@@ -10,8 +10,6 @@ def fact(k):
     else:
         if k == 0 or k == 1:
             d[k] = 1
-        elif k == 2:
-            d[k] = 2
         else:
             d[k] = k * fact(k-1)
         return d[k]
