@@ -1,5 +1,5 @@
 stack = []
-
+# list의 append(삽입) 메소드와 pop(삭제) 메소드 이용
 # 삽입(5) - 삽입(2) - 삽입(3) - 삽입(7) - 삭제() - 삽입(1) - 삽입(4) - 삭제()
 stack.append(5)
 stack.append(2)
