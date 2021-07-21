@@ -24,7 +24,6 @@ s = input()
 re = s[0]
 cnt = 0
 for i in range(1, len(s)):
-
     if s[i] == 'a' or s[i] == 'e' or s[i] == 'h' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u' or s[i] == 'w' or s[i] == 'y':
         continue
     elif s[i] == 'b' or s[i] == 'f' or s[i] == 'p' or s[i] == 'v':
