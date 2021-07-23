@@ -13,23 +13,12 @@
 # method 1
 import sys
 input = sys.stdin.readline
+d = [0] * 10000001
 n = int(input())
-d = list(map(int, input().split()))
+a = list(map(int, input().split()))
+for i in range(n):
+    d[a[i]] = 1
 m = int(input())
 q = list(map(int, input().split()))
-def binarySearch(array, target, st, end):
-    if st > end:
-        return None
-    mid = (st + end) // 2
-    if array[mid] == target:
-        return mid
-    elif target < array[mid]:
-        return binarySearch(array, target, st, mid-1)
-    else:
-        return binarySearch(array, target, mid+1, end)
 for i in range(m):
-    rlt = binarySearch(d, q[i], 0, n-1)
-    if rlt == None:
-        print(0, end=' ')
-    else:
-        print(1, end=' ')
+    print(d[q[i]], end=' ')
