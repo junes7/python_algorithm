@@ -22,6 +22,7 @@ for i in range(n):
         if int(no) not in mt:
             mt.append([int(no), name])
     elif c == 'D':
+        # 리스트 컴프리헨션 이용
         mt = [i for i in mt if not int(no) in i]
 mt = sorted(mt, key=lambda x : x[0])
 idx = list(map(int, input().split()))
