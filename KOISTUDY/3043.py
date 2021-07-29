@@ -5,4 +5,4 @@
 # 문자 1개가 입력된다. | 그 다음 문자를 출력한다.
 import sys
 n = ord(sys.stdin.readline().rstrip())
-sys.stdout.write(str(chr(n+1)))
+sys.stdout.write(chr(n+1))
