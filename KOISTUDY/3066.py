@@ -2,4 +2,6 @@
 # print true if both boolean values are different each other
 a,b=map(int,input().split())
 # print(bool(a&~b|~a&b))
-print(bool(a and(not b)or(not a)and b))
+a = bool(a)
+b = bool(b)
+print(a and(not b)or(not a)and b)
