@@ -1,3 +1,3 @@
 def solution(ineq, eq, n, m):
-    answer=int(n>m if ineq=='>' else n<m) if eq=='!' else int(n>=m if ineq=='>' else n<=m)
+    answer=int(eval(f"{n}{ineq}{eq.replace('!','')}{m}"))
     return answer
