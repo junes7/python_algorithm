@@ -1,5 +1,4 @@
 def solution(num_list):
-    answer = num_list
-    l_comp=(answer[-1] - answer[-2]) if answer[-1] > answer[-2] else answer[-1]*2
-    answer.append(l_comp)
-    return answer
+    l = num_list
+    l.append((l[-1]-l[-2]) if l[-1]>l[-2] else l[-1]*2)
+    return l
