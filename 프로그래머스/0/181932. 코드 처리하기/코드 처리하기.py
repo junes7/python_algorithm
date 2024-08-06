@@ -1,14 +1,11 @@
 def solution(code):
-    answer,mode='',0
-    for i in range(len(code)):
-        if mode==0:
-            if code[i]!='1':
-                answer+=code[i] if i%2==0 else ''
-            else:
-                mode=1
-        elif mode==1:
-            if code[i]!='1':
-                answer+=code[i] if i%2!=0 else ''
-            else:
-                mode=0
-    return "EMPTY" if len(answer)==0 else answer
+#     answer,mode='',0
+#     for i in range(len(code)):
+#         if code[i]=='1':
+#             mode^=1
+#         else:
+#             answer+=code[i] if i%2==mode else ''
+            
+#     return "EMPTY" if len(answer)==0 else answer
+    answer=''.join(code.split('1'))[::2] or 'EMPTY'
+    return answer
