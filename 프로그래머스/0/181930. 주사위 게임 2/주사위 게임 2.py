@@ -16,7 +16,7 @@ def solution(a, b, c):
     # for i in range(1,count+1):
     #     answer*=(a**i+b**i+c**i)
     answer=1
-    cnt=abs(len(set([a,b,c]))-3)+1
+    cnt=4-len(set([a,b,c]))
     for i in range(1,cnt+1):
         answer*=(a**i+b**i+c**i)    
     return answer
