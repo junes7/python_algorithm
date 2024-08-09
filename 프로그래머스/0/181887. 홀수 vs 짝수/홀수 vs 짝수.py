@@ -1,9 +1,12 @@
 def solution(num_list):
-    os,es=0,0
-    for i,n in enumerate(num_list):
-        if i%2:
-            os+=n
-        else:
-            es+=n
-    answer=os if os>es else es
+    # method1
+    # os,es=0,0
+    # for i,n in enumerate(num_list):
+    #     if i%2:
+    #         os+=n
+    #     else:
+    #         es+=n
+    # answer=os if os>es else es
+    # method2
+    answer=max(sum(num_list[::2]),sum(num_list[1::2]))
     return answer
