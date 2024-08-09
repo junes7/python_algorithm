@@ -1,5 +1,3 @@
 def solution(myString):
-    answer = myString.split('x')
-    while '' in answer:
-        answer.remove('')
+    answer = [i for i in myString.split('x') if len(i)!=0]
     return sorted(list(answer))
