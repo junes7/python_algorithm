@@ -1,5 +1,6 @@
 def solution(n):
-    arr = [[0]*n for i in range(n)] 
+    arr = [[0]*n for i in range(n)]
+    # direction element list
     dy=[0,1,0,-1]
     dx=[1,0,-1,0]
     # direction, element
@@ -11,6 +12,7 @@ def solution(n):
         nx=x+dx[d]
         arr[y][x]=e
         e+=1
+        # boundary condition
         if nx<0 or ny<0 or ny>=n or nx>=n or arr[ny][nx]!=0:
             d=(d+1)%4
             ny=y+dy[d]
