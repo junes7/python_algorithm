@@ -1,3 +1,3 @@
 def solution(s):
-    answer=int(s)
-    return answer
+    r=int(s)
+    return r
