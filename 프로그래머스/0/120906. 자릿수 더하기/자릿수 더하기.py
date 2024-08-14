@@ -8,5 +8,4 @@ def solution(n):
     #     n//=10
     # method3
     s=sum(map(int,str(n)))
-    print(s)
     return s
