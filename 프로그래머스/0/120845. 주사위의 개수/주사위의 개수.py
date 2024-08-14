@@ -1,5 +1,3 @@
 def solution(box, n):
-    r=1
-    for i in box:
-        r*=i//n
+    r=eval('*'.join(str(i//n) for i in box))
     return r
