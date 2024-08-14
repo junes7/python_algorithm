@@ -1,3 +1,6 @@
 def solution(message):
-    r=len(message)*2
+    # method1
+    # r=len(message)*2
+    # method2
+    r=len(message)<<1
     return r
