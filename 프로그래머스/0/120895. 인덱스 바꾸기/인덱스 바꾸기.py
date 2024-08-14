@@ -4,6 +4,6 @@ def solution(my_string, num1, num2):
     # t=l[num1]
     # l[num1]=l[num2]
     # l[num2]=t
-    # method2
+    # method2 tuple 형태로 값 변환
     l[num1],l[num2]=l[num2],l[num1]
     return ''.join(l)
