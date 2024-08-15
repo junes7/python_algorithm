@@ -7,7 +7,7 @@ def solution(n):
     #         k=[j for j in range(2,i+1) if not i%j]
     #         if len(k)==1:
     #             r+=[i]
-    # method2 나누기 이용
+    # method2 single while statement
     d=2
     while n>1:
         if not n%d:
