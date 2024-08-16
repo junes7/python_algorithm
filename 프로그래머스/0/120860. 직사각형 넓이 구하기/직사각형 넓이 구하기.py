@@ -1,7 +1,7 @@
 def solution(dots):
+    # method1 max, min function
+    # r=(max(dots)[0]-min(dots[0]))*(max(dots)[1]-min(dots)[1])
+    # method2 sorted function
     dots=sorted(dots)
-    r=1
-    for i in range(1,3):
-        r*=(dots[i][0]-dots[0][0])**2+(dots[i][1]-dots[0][1])**2
-    r=r**0.5
+    r=(dots[-1][0]-dots[0][0])*(dots[-1][1]-dots[0][1])
     return r
