@@ -1,7 +1,7 @@
 def solution(board):
     r=0
     n=len(board)
-    # 위험 지역 2로 변환
+    # 위험지역 2로 변환
     for i in range(n):
         for j in range(n):
             if board[i][j]==1:
@@ -16,7 +16,7 @@ def solution(board):
                     for l in range(sy,ey+1):
                         if board[k][l]!=1:
                             board[k][l]=2
-    # 안전 지역 세기       
+    # 안전지역 세기       
     for i in range(n):
         for j in range(n):
             if not board[i][j]:
