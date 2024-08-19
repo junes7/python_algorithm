@@ -1,10 +1,14 @@
 def solution(sizes):
-    m1,m2=0,0
-    for s in sizes:
-        if s[0]<s[::-1][0]:
-            s=s[::-1]
-        if m1<s[0]:
-            m1=s[0]
-        if m2<s[1]:
-            m2=s[1]
-    return m1*m2
+    # method1 without max, min function
+    # m1,m2=0,0
+    # for s1,s2 in sizes:
+    #     if s1<s2:
+    #         s1,s2=s2,s1
+    #     if m1<s1:
+    #         m1=s1
+    #     if m2<s2:
+    #         m2=s2
+    # r=m1*m2
+    # method2 with max, min function
+    r=max(sum(sizes,[]))*max(min(s) for s in sizes)
+    return r
