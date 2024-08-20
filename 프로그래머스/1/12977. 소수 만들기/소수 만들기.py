@@ -10,5 +10,5 @@ def solution(nums):
             else:
                 d+=1
         if len(t)==1:
-            r+=[n]
-    return sum(r)
+            r+=[sum(i)]
+    return len(r)
