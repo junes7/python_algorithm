@@ -8,8 +8,8 @@ def solution(cards1, cards2, goal):
     #     elif c in cards2:
     #         idx[1]+=1
     #         r+=[cards2[idx[1]]]
-    # return "Yes" if goal==r else "No"
-    # method2 del함수 이용
+    # r="Yes" if goal==r else "No"
+    # method2 del함수로 매치되었을 때 요소 삭제
     r="Yes"
     for c in goal:
         if len(cards1)>0 and cards1[0]==c:
