@@ -17,7 +17,10 @@ def solution(dartResult):
     #             r[-1]=r[-1]*2
     #             r[-2]=r[-2]*2
     #     r=sum(r)
-    # method2 re라이브러리의 compile과 findall함수 이용
+    '''
+    method2 re라이브러리의 compile(정규표현식 컴파일)과
+    findall(정규표현식과 매치되는 문자열 검색 및 리스트화)함수 이용
+    '''
     import re
     b={'S':1,'D':2,'T':3}
     s={'':1,'*':2,'#':-1}
