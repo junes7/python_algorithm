@@ -6,7 +6,7 @@ def solution(dartResult):
                 n=int(dartResult[i-2:i])
             else:
                 n=int(dartResult[i-1])
-            r+=[{'S':n**1,'D':n**2,'T':n**3}.get(c)]
+            r+=[{'S':n**1,'D':n**2,'T':n**3}[c]]
         if c=='#':
             r[-1]=-1*r[-1]
         elif c=='*':
