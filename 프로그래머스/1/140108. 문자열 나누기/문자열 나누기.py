@@ -1,16 +1,16 @@
 def solution(s):
-    r=[]
+    r=0
     while s!='':
-        t,o=[s[0]],[]
+        t,o=1,0
         for i,c in enumerate(s):
             if i>0:
-                if c==t[0]:
-                    t+=[c]
+                if c==s[0]:
+                    t+=1
                 else:
-                    if len(o)<len(t):
-                        o+=c
-                    if len(o)==len(t):
+                    if o<t:
+                        o+=1
+                    if o==t:
                         break        
-        r+=[''.join(t+o)]
-        s=s[len(t)+len(o):]
-    return len(r)
+        r+=1
+        s=s[t+o:]
+    return r
