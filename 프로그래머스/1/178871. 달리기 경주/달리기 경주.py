@@ -1,5 +1,3 @@
-
-
 def solution(players, callings):
     # 빠른 탐색을 위해 리스트에서 해시(딕셔너리로)로 전환 | player:index 형태
     player_rank={p:i for i,p in enumerate(players)}
