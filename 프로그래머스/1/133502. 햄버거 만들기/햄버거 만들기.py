@@ -7,8 +7,7 @@ def solution(ingredient):
         t+=[n]
         # 햄버거 요소를 쌓기 전까지는 continue로 skip
         if len(t)<4:
-            continue
-            
+            continue    
         # 슬라이스 함수를 이용해 뒤에 4번째부터 현재까지의 재료가 
         # 비교대상이랑 일치하면 결과값 증가하고 비교대상 일치한 요소 삭제
         else:
