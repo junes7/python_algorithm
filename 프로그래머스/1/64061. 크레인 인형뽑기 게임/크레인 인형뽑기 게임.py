@@ -6,7 +6,7 @@ def solution(board, moves):
             if board[i][m-1]:
                 if not len(b) or b[-1]!=board[i][m-1]:
                     b+=[board[i][m-1]]
-                elif len(b)!=0 or b[-1]==board[i][m-1]:
+                elif b[-1]==board[i][m-1]:
                     del b[-1]
                     r+=2
                 board[i][m-1]=0
