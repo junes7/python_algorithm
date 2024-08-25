@@ -12,7 +12,7 @@ def solution(today, terms, privacies):
     today=date(y,m,d)
     # 수집된 개인정보 리스트를 돌면서
     for i,p in enumerate(privacies):
-        # 개인정보 수집 날짜 유형 문자에서 날짜로 변형
+        # 개인정보 수집 날짜 문자에서 날짜로 유형으로 전환
         s,type=p.split(' ')
         y,m,d=map(int,s.split('.'))
         d=date(y,m,d)
