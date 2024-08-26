@@ -6,7 +6,6 @@ def solution(id_list, report, k):
     for repo in report:
         # 신고 리스트 요소를 신고자와 신고당한 이용자로 분리 후
         # 신고 해시의 신고당한 유저 요소에 신고자 이름 추가
-        # 신고당한 유저 횟수 증가
         id,re=repo.split(' ')
         if re not in users[re][0]:
             users[re][0].add(id)
