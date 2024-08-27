@@ -1,5 +1,5 @@
 def solution(n):
-    # 피보나치 2까지는 1으므로 1 반환    
+    # 피보나치 2까지는 1이므로 1 반환    
     if n<=2:
         return 1
     else:
