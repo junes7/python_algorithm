@@ -11,4 +11,5 @@ def solution(brown, yellow):
         # (너비-2)*(높이-2)==노란색 격자 크기가 되어야 합니다.
         if row*col==total and row>=col and (row-2)*(col-2)==yellow:
             r+=[row,col]
+            break
     return r
