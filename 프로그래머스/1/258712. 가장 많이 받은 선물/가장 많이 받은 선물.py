@@ -6,7 +6,7 @@ def solution(friends, gifts):
     score=[0]*l
     # comprehension 반복문 사용해 선물 주고받은 횟수 2차원 배열 생성
     give=[[0]*l for _ in range(l)]
-    #### 초기값 설정
+    #### 초기값 설정 및 선물 지수 도출
     # 딕셔너리 초기값 생성 | f는 키, 값은 배열 [준 선물, 받은 선물, 선물 지수]
     for f in friends:
         gf[f]=[0,0,0]
@@ -20,7 +20,7 @@ def solution(friends, gifts):
     # 준 선물 횟수와 받은 선물 횟수를 이용해 선물 지수 계산해 저장
     for f in friends:
         gf.get(f)[2]=gf.get(f)[0]-gf.get(f)[1]
-    
+    #### 선물 주고받은 2차원 배열 설정 및 선물 받을 수 결정
     for gift in gifts:
         # 선물 주고 받은 배열 생성 [선물 준 친구, 선물 받은 친구] 하고
         gift=gift.split(' ')
