@@ -7,7 +7,7 @@ def solution(clothes):
             cl[t]=[c]
         else:
             cl[t]+=[c]
-    # 옷 종류 길이를 각각 곱해줍니다.
+    # 딕셔너리를 돌면서 옷 종류 리스트 길이를 곱해줍니다.
     for t in cl:
         r*=len(cl[t])+1
     # 결과값에서 1을 빼주어 조합의 수를 구해줍니다.
