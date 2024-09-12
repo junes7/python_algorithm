@@ -1,3 +1,3 @@
 def solution(n):        
-    answer = [i for i in range(1,n+1,2)]
-    return answer
+    r=[i for i in range(1,n+1,2)]
+    return r
