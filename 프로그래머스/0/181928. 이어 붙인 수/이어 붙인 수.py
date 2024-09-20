@@ -1,10 +1,10 @@
 def solution(num_list):
     odd,even='',''
-    answer = 0
+    r=0
     for n in num_list:
         if n%2!=0:
             odd+=str(n)
         else:
             even+=str(n)
-    answer=int(odd)+int(even)
-    return answer
+    r=int(odd)+int(even)
+    return r
