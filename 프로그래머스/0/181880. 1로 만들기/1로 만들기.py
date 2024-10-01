@@ -9,5 +9,5 @@ def solution(num_list):
     #         cnt+=1
     #     answer+=cnt
     # method2
-    answer=sum([len(bin(n))-3 for n in num_list])     
-    return answer
+    r=sum([len(bin(n))-3 for n in num_list])     
+    return r
