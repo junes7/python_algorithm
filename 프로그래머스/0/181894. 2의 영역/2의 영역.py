@@ -11,5 +11,5 @@ def solution(arr):
     #         break
     # answer=[-1] if s==-1 and e==-1 else arr[s:e+1]
     # method2
-    answer=[-1] if 2 not in arr else arr[arr.index(2):len(arr)-arr[::-1].index(2)]
-    return answer
+    r=[-1] if 2 not in arr else arr[arr.index(2):len(arr)-arr[::-1].index(2)]
+    return r
