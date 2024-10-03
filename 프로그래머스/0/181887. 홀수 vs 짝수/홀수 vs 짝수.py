@@ -8,5 +8,5 @@ def solution(num_list):
     #         es+=n
     # answer=os if os>es else es
     # method2
-    answer=max(sum(num_list[::2]),sum(num_list[1::2]))
-    return answer
+    r=max(sum(num_list[::2]),sum(num_list[1::2]))
+    return r
