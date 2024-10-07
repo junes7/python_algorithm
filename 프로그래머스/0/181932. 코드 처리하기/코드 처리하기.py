@@ -7,5 +7,5 @@ def solution(code):
 #             answer+=code[i] if i%2==mode else ''
             
 #     return "EMPTY" if len(answer)==0 else answer
-    answer=''.join(code.split('1'))[::2] or 'EMPTY'
-    return answer
+    r=''.join(code.split('1'))[::2] or 'EMPTY'
+    return r
