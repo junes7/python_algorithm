@@ -1,6 +1,6 @@
 def solution(a, d, included):
-    answer=0
+    r=0
     for i,t in enumerate(included):
         if t:
-            answer+=a+d*i
-    return answer
+            r+=a+d*i
+    return r
