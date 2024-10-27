@@ -1,10 +1,10 @@
 # [level 0] 직각삼각형 출력하기 - 120823 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120823) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120823?language=cpp) 
 
 ### 성능 요약
 
-메모리: 7.57 MB, 시간: 11.64 ms
+메모리: 4.2 MB, 시간: 3.18 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 24일 23:57:12
+2024년 10월 27일 23:32:03
 
 ### 문제 설명
 
