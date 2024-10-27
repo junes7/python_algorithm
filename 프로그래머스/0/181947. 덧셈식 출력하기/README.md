@@ -1,10 +1,10 @@
 # [level 0] 덧셈식 출력하기 - 181947 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181947?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181947) 
 
 ### 성능 요약
 
-메모리: 4.2 MB, 시간: 2.52 ms
+메모리: 4.11 MB, 시간: 2.06 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 26일 23:45:49
+2024년 10월 27일 23:41:15
 
 ### 문제 설명
 
