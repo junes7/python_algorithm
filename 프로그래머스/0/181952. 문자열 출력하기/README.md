@@ -1,10 +1,10 @@
 # [level 0] 문자열 출력하기 - 181952 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181952?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181952) 
 
 ### 성능 요약
 
-메모리: 4.01 MB, 시간: 1.81 ms
+메모리: 4.18 MB, 시간: 2.20 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 25일 23:58:34
+2024년 10월 27일 23:44:42
 
 ### 문제 설명
 
