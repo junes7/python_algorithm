@@ -4,6 +4,6 @@
 using namespace std;
 
 int solution(int age) {
-    int r=2022-age+1;
+    int r=2022+1-age;
     return r;
 }
