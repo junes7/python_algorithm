@@ -1,6 +1,6 @@
 # [level 0] 두 수의 곱 - 120804 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120804?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120804) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 18일 23:38:33
+2024년 11월 07일 23:58:14
 
 ### 문제 설명
 
