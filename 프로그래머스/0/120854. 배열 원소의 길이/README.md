@@ -16,11 +16,11 @@
 
 ### 제출 일자
 
-2024년 08월 13일 21:59:53
+2024년 11월 07일 23:59:21
 
 ### 문제 설명
 
-<p>문자열 배열 <code>strlist</code>가 매개변수로 주어집니다. <code>strlist</code> 각 원소의 길이를 담은 배열을 retrun하도록 solution 함수를 완성해주세요.</p>
+<p>문자열 배열 <code>strlist</code>가 매개변수로 주어집니다. <code>strlist</code> 각 원소의 길이를 담은 배열을 return하도록 solution 함수를 완성해주세요.</p>
 
 <hr>
 
