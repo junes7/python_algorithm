@@ -1,10 +1,10 @@
 # [level 0] 짝수는 싫어요 - 120813 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120813?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120813) 
 
 ### 성능 요약
 
-메모리: 4.18 MB, 시간: 0.02 ms
+메모리: 4.14 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 04일 00:41:03
+2024년 11월 08일 23:56:41
 
 ### 문제 설명
 
