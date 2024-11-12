@@ -10,7 +10,5 @@ vector<int> solution(vector<int> arr, vector<vector<int>> intervals) {
             r.push_back(arr[j]);
         }
     }
-    
-    
     return r;
 }
