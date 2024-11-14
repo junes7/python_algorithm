@@ -1,10 +1,10 @@
 # [level 0] 대소문자 바꿔서 출력하기 - 181949 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181949?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181949) 
 
 ### 성능 요약
 
-메모리: 4.2 MB, 시간: 4.46 ms
+메모리: 4.16 MB, 시간: 91.96 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 01일 23:59:06
+2024년 11월 14일 23:31:21
 
 ### 문제 설명
 
