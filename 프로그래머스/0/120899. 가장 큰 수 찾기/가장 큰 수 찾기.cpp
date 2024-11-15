@@ -10,8 +10,7 @@ vector<int> solution(vector<int> array) {
         if(max<array[i]) {
             max=array[i];
             idx=i;
-        }
-        
+        }      
     }
     r.push_back(max);
     r.push_back(idx);
