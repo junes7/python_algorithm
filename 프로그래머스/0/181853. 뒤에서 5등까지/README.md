@@ -1,10 +1,10 @@
 # [level 0] 뒤에서 5등까지 - 181853 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181853) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181853?language=cpp) 
 
 ### 성능 요약
 
-메모리: 10 MB, 시간: 0.00 ms
+메모리: 4.28 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 09일 18:43:44
+2024년 11월 16일 00:27:26
 
 ### 문제 설명
 
