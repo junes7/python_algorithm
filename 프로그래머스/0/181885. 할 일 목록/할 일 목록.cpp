@@ -9,6 +9,5 @@ vector<string> solution(vector<string> todo_list, vector<bool> finished) {
         if(finished[i]==false)
             r.push_back(todo_list[i]);
     }
-    
     return r;
 }
