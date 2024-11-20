@@ -8,7 +8,8 @@ vector<string> solution(string my_string) {
     stringstream ss(my_string);
     string buffer;
     while(getline(ss,buffer,' ')) {
-        r.push_back(buffer);
+        if(buffer!="")
+            r.push_back(buffer);
     }
     return r;
 }
