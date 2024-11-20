@@ -1,6 +1,6 @@
 # [level 0] 공백으로 구분하기 2 - 181868 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181868?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181868) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 20일 19:52:50
+2024년 11월 20일 19:54:03
 
 ### 문제 설명
 

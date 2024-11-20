@@ -1,7 +1,6 @@
 #include <string>
 #include <vector>
 #include <sstream>
-#include <iostream>
 using namespace std;
 
 vector<string> solution(string my_string) {
