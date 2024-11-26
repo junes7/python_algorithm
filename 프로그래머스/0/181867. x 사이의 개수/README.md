@@ -1,10 +1,10 @@
 # [level 0] x 사이의 개수 - 181867 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181867) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181867?language=cpp) 
 
 ### 성능 요약
 
-메모리: 11.9 MB, 시간: 3.44 ms
+메모리: 7.26 MB, 시간: 6.85 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 02일 23:49:59
+2024년 11월 26일 16:43:28
 
 ### 문제 설명
 
