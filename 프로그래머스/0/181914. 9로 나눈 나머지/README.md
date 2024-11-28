@@ -1,10 +1,10 @@
 # [level 0] 9로 나눈 나머지 - 181914 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181914) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181914?language=cpp) 
 
 ### 성능 요약
 
-메모리: 10.5 MB, 시간: 46.31 ms
+메모리: 4.2 MB, 시간: 0.10 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 27일 23:54:14
+2024년 11월 28일 13:16:49
 
 ### 문제 설명
 
