@@ -1,10 +1,10 @@
 # [level 0] 문자열이 몇 번 등장하는지 세기 - 181871 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181871) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181871?language=cpp) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.31 ms
+메모리: 4.15 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 01일 23:56:33
+2024년 11월 29일 21:55:12
 
 ### 문제 설명
 
