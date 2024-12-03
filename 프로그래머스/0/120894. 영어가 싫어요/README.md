@@ -1,10 +1,10 @@
 # [level 0] 영어가 싫어요 - 120894 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120894?language=cpp#) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120894) 
 
 ### 성능 요약
 
-메모리: 4.14 MB, 시간: 0.03 ms
+메모리: 4.22 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 03일 15:41:07
+2024년 12월 03일 15:43:17
 
 ### 문제 설명
 

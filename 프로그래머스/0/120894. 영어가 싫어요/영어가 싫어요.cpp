@@ -1,7 +1,5 @@
 #include <string>
 #include <vector>
-#include <iostream>
-#include <cctype>
 using namespace std;
 
 long long solution(string numbers) {
