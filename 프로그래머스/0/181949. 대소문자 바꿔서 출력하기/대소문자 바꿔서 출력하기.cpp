@@ -13,14 +13,13 @@ int main(void) {
         // } else if(str[i] >= 97 && str[i] <= 122) {
         //     str[i] -= 32;
         // }
-        if(isupper(str[i])) {
-            str[i]=tolower(str[i]);
-        } else {
-            str[i]=toupper(str[i]);
-        }
-        
-        
+        // if(isupper(str[i])) {
+        //     str[i]=tolower(str[i]);
+        // } else {
+        //     str[i]=toupper(str[i]);
+        // }
+        str[i]=isupper(str[i])?tolower(str[i]):toupper(str[i]);
     }
-    cout << str << endl;
+    cout<<str<<endl;
     return 0;
 }
