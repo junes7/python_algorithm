@@ -1,10 +1,10 @@
 # [level 0] 특이한 정렬 - 120880 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120880) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120880?language=cpp) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.03 ms
+메모리: 4.18 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 16일 23:21:35
+2024년 12월 05일 12:50:34
 
 ### 문제 설명
 
