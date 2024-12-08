@@ -1,10 +1,10 @@
 # [level 1] 나누어 떨어지는 숫자 배열 - 12910 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12910) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12910?language=cpp) 
 
 ### 성능 요약
 
-메모리: 13.4 MB, 시간: 2.93 ms
+메모리: 6.09 MB, 시간: 0.43 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 18일 16:57:13
+2024년 12월 08일 23:47:29
 
 ### 문제 설명
 
