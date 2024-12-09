@@ -1,6 +1,5 @@
 #include <string>
 #include <vector>
-// #include <iostream>
 #include <algorithm>
 
 using namespace std;
@@ -15,7 +14,6 @@ int solution(vector<int> mats, vector<vector<string>> park) {
                 for(int k=0;k<mats.size();k++) {
                     if(i+mats[k]<=park.size() && j+mats[k]<=park[i].size()) {
                         flagr=true, flagc=true;
-                        // cout<<i<<' '<<i+mats[k]<<' '<<j<<' '<<j+mats[k]<<endl;
                         for(int l=i;l<i+mats[k];l++) {
                             for(int m=j;m<j+mats[k];m++) {
                                 if(park[l][m]!="-1") {
@@ -25,7 +23,6 @@ int solution(vector<int> mats, vector<vector<string>> park) {
                                 }
                             }
                         }
-                        // cout<<"mats[k]: "<<mats[k]<<endl;
                         if(flagr && flagc) {
                             r.push_back(mats[k]);
                             break;
