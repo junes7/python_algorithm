@@ -9,11 +9,7 @@ string solution(string s) {
         if(s[i]==' ') {
             t=0;
         } else {
-            if(t%2==0)
-                s[i]=toupper(s[i]);
-            else
-                s[i]=tolower(s[i]);
-            t++;
+            s[i]=(t++%2==0)?toupper(s[i]):tolower(s[i]);
         }
     }
     string r=s;
