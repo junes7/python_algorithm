@@ -1,10 +1,10 @@
 # [level 1] 숫자 문자열과 영단어 - 81301 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301?language=cpp) 
 
 ### 성능 요약
 
-메모리: 10.3 MB, 시간: 0.03 ms
+메모리: 4.16 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 18일 17:36:24
+2024년 12월 11일 11:48:44
 
 ### 문제 설명
 
