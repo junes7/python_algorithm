@@ -23,7 +23,5 @@ int solution(vector<int> nums) {
             }
         }
     }
-    
-
     return r;
 }
