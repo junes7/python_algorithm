@@ -10,7 +10,7 @@ int solution(vector<vector<string>> board, int h, int w) {
     for(int i=0;i<4;i++) {
         h_check=h+dh[i];
         w_check=w+dw[i];
-        if((0<=h_check && h_check<n) && (0<=w_check && w_check<n)) {
+        if((0<=h_check && h_check<=n) || (0<=w_check && w_check<=n)) {
             if(board[h][w]==board[h_check][w_check]) {
                 r+=1;
             }
