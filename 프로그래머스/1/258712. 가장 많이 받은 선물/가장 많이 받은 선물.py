@@ -17,16 +17,13 @@ def solution(friends, gifts):
         # {딕셔너리}.get()을 이용해 배열 속 해당 요소 증가
         gf.get(g)[0]+=1
         gf.get(r)[1]+=1
+        #### 선물 주고받은 2차원 배열 설정 및 선물 받을 수 결정
+        # 선물 주고받은 횟수 배열에 해당하는 요소 count
+        # 행은 선물 준 친구 인덱스, 열은 선물 받은 친구 인덱스
+        give[friends.index(g)][friends.index(r)]+=1
     # 준 선물 횟수와 받은 선물 횟수를 이용해 선물 지수 계산해 저장
     for f in friends:
         gf.get(f)[2]=gf.get(f)[0]-gf.get(f)[1]
-    #### 선물 주고받은 2차원 배열 설정 및 선물 받을 수 결정
-    for gift in gifts:
-        # 선물 주고 받은 배열 생성 [선물 준 친구, 선물 받은 친구] 하고
-        gift=gift.split(' ')
-        # 선물 주고받은 횟수 배열에 해당하는 요소 count
-        # 행은 선물 준 친구 인덱스, 열은 선물 받은 친구 인덱스
-        give[friends.index(gift[0])][friends.index(gift[1])]+=1
     for a in range(l):
         for b in range(a+1,l):
             # a가 b에게 선물을 준 횟수
