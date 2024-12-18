@@ -1,10 +1,10 @@
 # [level 0] 정수를 나선형으로 배치하기 - 181832 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181832?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181832?language=python3) 
 
 ### 성능 요약
 
-메모리: 4.16 MB, 시간: 0.22 ms
+메모리: 10.1 MB, 시간: 0.51 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 18일 11:36:23
+2024년 12월 18일 11:40:15
 
 ### 문제 설명
 
