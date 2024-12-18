@@ -9,7 +9,8 @@ def solution(brown, yellow):
         # 너비*높이가 카펫 크기와 동일하고 너비가 높이보다 크거나 같을 때 
         # 맨 위, 맨 아래 2줄, 맨 앞, 맨 뒤 2줄을 빼면 노란색 격자가 되기에
         # (너비-2)*(높이-2)==노란색 격자 크기가 되어야 합니다.
-        if row*col==total and row>=col and (row-2)*(col-2)==yellow:
+        # if row*col==total and row>=col and (row-2)*(col-2)==yellow:
+        if(row-2)*(col-2)==yellow:
             r+=[row,col]
             break
     return r
