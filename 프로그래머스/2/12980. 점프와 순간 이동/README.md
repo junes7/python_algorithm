@@ -1,10 +1,10 @@
 # [level 2] 점프와 순간 이동 - 12980 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12980) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12980?language=cpp) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.02 ms
+메모리: 3.8 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 08월 28일 22:48:32
+2024년 12월 18일 23:36:12
 
 ### 문제 설명
 
