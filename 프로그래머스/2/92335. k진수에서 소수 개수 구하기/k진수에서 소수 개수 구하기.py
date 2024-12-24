@@ -1,5 +1,4 @@
 def solution(n, k):
-    from collections import deque
     r,t=0,''
     # 진수 변환
     while n>0:
