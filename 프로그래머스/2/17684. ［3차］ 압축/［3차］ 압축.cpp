@@ -14,11 +14,10 @@ vector<int> solution(string msg) {
         t=(char)i+65;
         dic[t]=i+1;
     }
-    while(i<msg.length()) {
+    while(i<msg.size()) {
         t="",cnt=0; 
         while(i+cnt<msg.size() and dic.find(t+msg[i+cnt])!=dic.end()) {    
-            t+=msg[i+cnt];
-            cnt++;
+            t+=msg[i+cnt++];
         }
         r.push_back(dic[t]);
         if(i+cnt<msg.size()) {
