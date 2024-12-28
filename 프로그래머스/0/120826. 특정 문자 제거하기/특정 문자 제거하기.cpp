@@ -1,6 +1,6 @@
 #include <string>
 #include <vector>
-#include <iostream>
+
 using namespace std;
 
 string solution(string my_string, string letter) {
@@ -9,8 +9,7 @@ string solution(string my_string, string letter) {
     //     if(my_string[i]==letter)
     //         r+=my_string[i];
     // }
-    while(my_string.find(letter)!=-1) {
-        cout<<my_string.find(letter)<<endl;
+    while(my_string.find(letter)!=string::npos) {
         my_string.erase(my_string.find(letter),1);
     }
     return my_string;
