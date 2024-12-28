@@ -6,8 +6,9 @@
 int solution(int array[], size_t array_len, int n) {
     int r=0;
     for(int i=0;i<array_len;i++) {
-        if(array[i]==n)
-            r+=1;
+        // if(array[i]==n)
+        //     r+=1;
+        r+=array[i]==n;
     }
     return r;
 }
