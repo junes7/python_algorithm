@@ -6,7 +6,7 @@
 char* solution(const char* my_string, int n) {
     // return 값은 malloc 등 동적 할당을 사용해주세요. 할당 길이는 상황에 맞게 변경해주세요.
     char* r= (char*)malloc(sizeof(char)*(n+1));
-    for(int i=0;i<=n;i++)
+    for(int i=0;i<n;i++)
         r[i]=my_string[i];
     r[n]='\0';
     return r;
