@@ -1,10 +1,10 @@
 # [level 0] 대문자로 바꾸기 - 181877 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181877?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181877?language=c) 
 
 ### 성능 요약
 
-메모리: 4.14 MB, 시간: 0.01 ms
+메모리: 4.15 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 29일 15:16:01
+2024년 12월 29일 15:36:37
 
 ### 문제 설명
 
