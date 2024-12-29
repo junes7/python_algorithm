@@ -6,10 +6,7 @@ using namespace std;
 string solution(string myString) {
     string r = "";
     for(int i=0;i<myString.length();i++) {
-        if(myString[i]=='a' || myString[i]=='A')
-            r.push_back(toupper(myString[i]));
-        else
-            r.push_back(tolower(myString[i]));
+        r.push_back(myString[i]=='a' || myString[i]=='A'?toupper(myString[i]):tolower(myString[i]));
     }
     return r;
 }

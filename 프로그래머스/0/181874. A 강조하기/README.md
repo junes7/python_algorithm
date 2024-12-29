@@ -1,10 +1,10 @@
 # [level 0] A 강조하기 - 181874 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181874?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181874) 
 
 ### 성능 요약
 
-메모리: 4.21 MB, 시간: 0.01 ms
+메모리: 4.2 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 19일 00:23:13
+2024년 12월 29일 11:14:05
 
 ### 문제 설명
 
