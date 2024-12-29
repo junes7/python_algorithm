@@ -1,6 +1,6 @@
 # [level 0] 홀수 vs 짝수 - 181887 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181887) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181887?language=c) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 29일 17:58:06
+2024년 12월 29일 18:08:03
 
 ### 문제 설명
 
