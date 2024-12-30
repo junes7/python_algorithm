@@ -1,10 +1,10 @@
 # [level 0] 가까운 1 찾기 - 181898 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181898?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181898) 
 
 ### 성능 요약
 
-메모리: 5.94 MB, 시간: 0.26 ms
+메모리: 5.97 MB, 시간: 0.26 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 23일 17:55:29
+2024년 12월 31일 00:44:15
 
 ### 문제 설명
 
