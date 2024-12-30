@@ -1,10 +1,10 @@
 # [level 0] 정수 찾기 - 181840 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181840?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181840?language=c) 
 
 ### 성능 요약
 
-메모리: 3.69 MB, 시간: 0.01 ms
+메모리: 4.2 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 30일 15:51:11
+2024년 12월 30일 15:52:32
 
 ### 문제 설명
 
