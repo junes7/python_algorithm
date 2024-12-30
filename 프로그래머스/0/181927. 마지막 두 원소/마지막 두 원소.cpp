@@ -4,11 +4,8 @@
 using namespace std;
 
 vector<int> solution(vector<int> num_list) {
-    vector<int> r;
+    vector<int> r=num_list;
     int s=num_list.size();
-    for(int i=0;i<s;i++) {
-        r.push_back(num_list[i]);
-    }
     if(num_list[s-1]>num_list[s-2])
         r.push_back(num_list[s-1]-num_list[s-2]);
     else
