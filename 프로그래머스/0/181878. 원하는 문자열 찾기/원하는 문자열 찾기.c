@@ -7,10 +7,10 @@ int solution(const char* myString, const char* pat) {
     char* temp=(char*)malloc(sizeof(char)*strlen(myString));
     char* tar=(char*)malloc(sizeof(char)*strlen(pat));
     for(int i=0;i<strlen(myString);i++)
-        temp[i]=tolower(myString[i]);
+        temp[i]=isupper(myString[i])?tolower(myString[i]):myString[i];
     temp[strlen(myString)]='\0';
     for(int i=0;i<strlen(pat);i++)
-        tar[i]=tolower(pat[i]);
+        tar[i]=isupper(pat[i])?tolower(pat[i]):pat[i];
     tar[strlen(pat)]='\0';
     int r=strstr(temp,tar)!=NULL?1:0;
     return r;
