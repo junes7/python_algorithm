@@ -1,10 +1,10 @@
 # [level 0] 배열의 원소만큼 추가하기 - 181861 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181861?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181861?language=c) 
 
 ### 성능 요약
 
-메모리: 5.69 MB, 시간: 2.24 ms
+메모리: 5.61 MB, 시간: 4.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 09일 01:44:58
+2024년 12월 30일 18:07:01
 
 ### 문제 설명
 
@@ -61,83 +61,53 @@
 <p>입출력 예 #1</p>
 
 <ul>
-<li><p>예제 1번에 대해서 a와 X를 나타내보면 다음 표와 같습니다.</p>
-<table class="table">
-        <thead><tr>
-<th>a</th>
-<th>X</th>
-</tr>
-</thead>
-        <tbody><tr>
-<td></td>
-<td>[]</td>
-</tr>
-<tr>
-<td>5</td>
-<td>[5, 5, 5, 5, 5]</td>
-</tr>
-<tr>
-<td>1</td>
-<td>[5, 5, 5, 5, 5, 1]</td>
-</tr>
-<tr>
-<td>4</td>
-<td>[5, 5, 5, 5, 5, 1, 4, 4, 4, 4]</td>
-</tr>
-</tbody>
-      </table>
-<p>따라서 [5, 5, 5, 5, 5, 1, 4, 4, 4, 4]를 return 합니다.</p></li>
+<li>예제 1번에 대해서 a와 X를 나타내보면 다음 표와 같습니다.</li>
 </ul>
 
+<p>|a|X|</p>
+
+<p>|---|---|</p>
+
+<p>||[]|</p>
+
+<p>|5|[5, 5, 5, 5, 5]|</p>
+
+<p>|1|[5, 5, 5, 5, 5, 1]|</p>
+
+<p>|4|[5, 5, 5, 5, 5, 1, 4, 4, 4, 4]|</p>
+<div class="highlight"><pre class="codehilite"><code>따라서 [5, 5, 5, 5, 5, 1, 4, 4, 4, 4]를 return 합니다.
+</code></pre></div>
 <p>입출력 예 #2</p>
 
 <ul>
-<li><p>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </p>
-<table class="table">
-        <thead><tr>
-<th>a</th>
-<th>X</th>
-</tr>
-</thead>
-        <tbody><tr>
-<td></td>
-<td>[]</td>
-</tr>
-<tr>
-<td>6</td>
-<td>[6, 6, 6, 6, 6, 6]</td>
-</tr>
-<tr>
-<td>6</td>
-<td>[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]</td>
-</tr>
-</tbody>
-      </table>
-<p>따라서 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]를 return 합니다.</p></li>
+<li>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </li>
 </ul>
 
+<p>|a|X|</p>
+
+<p>|---|---|</p>
+
+<p>||[]|</p>
+
+<p>|6|[6, 6, 6, 6, 6, 6]|</p>
+
+<p>|6|[6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]|</p>
+<div class="highlight"><pre class="codehilite"><code>따라서 [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]를 return 합니다.
+</code></pre></div>
 <p>입출력 예 #3</p>
 
 <ul>
-<li><p>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </p>
-<table class="table">
-        <thead><tr>
-<th>a</th>
-<th>X</th>
-</tr>
-</thead>
-        <tbody><tr>
-<td></td>
-<td>[]</td>
-</tr>
-<tr>
-<td>1</td>
-<td>[1]</td>
-</tr>
-</tbody>
-      </table>
-<p>따라서 [1]을 return 합니다.</p></li>
+<li>예제 2번에 대해서 a와 X를 나타내보면 다음 표와 같습니다. </li>
 </ul>
 
+<p>|a|X|</p>
+
+<p>|---|---|</p>
+
+<p>||[]|</p>
+
+<p>|1|[1]|</p>
+<div class="highlight"><pre class="codehilite"><code>따라서 [1]을 return 합니다.
+</code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
