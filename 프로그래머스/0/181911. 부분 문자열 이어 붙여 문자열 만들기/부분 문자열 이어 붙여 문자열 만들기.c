@@ -9,10 +9,9 @@ char* solution(const char* my_strings[], size_t my_strings_len, int** parts, siz
     // return 값은 malloc 등 동적 할당을 사용해주세요. 할당 길이는 상황에 맞게 변경해주세요.
     char* r=(char*)malloc(sizeof(char)*(my_strings_len*100));
     int cnt=0;
-    for(int i=0;i<parts_rows;i++) {
+    for(int i=0;i<parts_rows;i++)
         for(int j=parts[i][0];j<=parts[i][1];j++)
             r[cnt++]=my_strings[i][j];
-    }
     r[cnt]='\0';
     return r;
 }
