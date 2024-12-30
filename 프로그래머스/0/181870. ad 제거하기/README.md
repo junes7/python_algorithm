@@ -1,10 +1,10 @@
 # [level 0] ad 제거하기 - 181870 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181870) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181870?language=c) 
 
 ### 성능 요약
 
-메모리: 3.83 MB, 시간: 0.44 ms
+메모리: 4.13 MB, 시간: 0.46 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 30일 18:54:40
+2024년 12월 30일 20:30:37
 
 ### 문제 설명
 
