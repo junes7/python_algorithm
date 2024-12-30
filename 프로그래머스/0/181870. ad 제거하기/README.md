@@ -1,6 +1,6 @@
 # [level 0] ad 제거하기 - 181870 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181870?language=c) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181870) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 30일 20:30:37
+2024년 12월 30일 20:31:00
 
 ### 문제 설명
 
