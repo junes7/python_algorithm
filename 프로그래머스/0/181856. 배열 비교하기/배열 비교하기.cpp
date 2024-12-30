@@ -4,7 +4,7 @@
 using namespace std;
 
 int solution(vector<int> arr1, vector<int> arr2) {
-    int r=0, s1=0, s2=0;
+    int r=0,s1=0,s2=0;
     if(arr1.size()!=arr2.size()) {
         // if(arr1.size() > arr2.size())
         //     r=1;
@@ -22,7 +22,7 @@ int solution(vector<int> arr1, vector<int> arr2) {
         //     r=1;
         // else
         //     r=-1;
-        r=(s1==s2)?0:((s1>s2)?1:-1);
+        r=(s1==s2)?0:(s1>s2)?1:-1;
     }
     return r;
 }
