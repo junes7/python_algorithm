@@ -1,6 +1,6 @@
 # [level 0] 짝수 홀수 개수 - 120824 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120824?language=c) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120824) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 31일 12:32:52
+2024년 12월 31일 12:35:18
 
 ### 문제 설명
 
