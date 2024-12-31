@@ -1,10 +1,10 @@
 # [level 0] 인덱스 바꾸기 - 120895 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120895?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120895?language=c) 
 
 ### 성능 요약
 
-메모리: 4.14 MB, 시간: 0.01 ms
+메모리: 4.11 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 26일 17:34:13
+2024년 12월 31일 13:00:55
 
 ### 문제 설명
 
