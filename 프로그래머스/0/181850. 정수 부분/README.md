@@ -1,6 +1,6 @@
 # [level 0] 정수 부분 - 181850 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850?language=c) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 20일 19:20:03
+2024년 12월 31일 16:34:08
 
 ### 문제 설명
 
