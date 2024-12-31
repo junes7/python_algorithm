@@ -4,7 +4,7 @@
 using namespace std;
 
 int solution(int n) {
-    int r = 0;
+    int r=0;
     while(n>0) {
         r+=n%10;
         n/=10;
