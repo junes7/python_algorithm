@@ -1,6 +1,6 @@
 # [level 0] 모음 제거 - 120849 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120849?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120849?language=c) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 31일 15:14:56
+2024년 12월 31일 15:49:13
 
 ### 문제 설명
 
