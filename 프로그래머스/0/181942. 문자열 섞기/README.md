@@ -1,10 +1,10 @@
 # [level 0] 문자열 섞기 - 181942 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181942?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181942?language=c) 
 
 ### 성능 요약
 
-메모리: 4.12 MB, 시간: 0.01 ms
+메모리: 4.14 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 28일 14:33:44
+2025년 01월 01일 01:50:26
 
 ### 문제 설명
 
