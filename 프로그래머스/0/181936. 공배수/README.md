@@ -1,10 +1,10 @@
 # [level 0] 공배수 - 181936 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181936?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181936) 
 
 ### 성능 요약
 
-메모리: 0.0 MB, 시간: 0.00 ms
+메모리: 4.17 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 15일 23:49:13
+2024년 12월 31일 17:48:34
 
 ### 문제 설명
 
