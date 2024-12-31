@@ -1,6 +1,6 @@
 # [level 0] 이차원 배열 대각선 순회하기 - 181829 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181829?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181829) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 13일 23:33:26
+2024년 12월 31일 23:56:17
 
 ### 문제 설명
 
