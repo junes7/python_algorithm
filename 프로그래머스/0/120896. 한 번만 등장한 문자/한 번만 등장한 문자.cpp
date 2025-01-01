@@ -1,8 +1,8 @@
 #include <string>
 #include <vector>
-#include <iostream>
 #include <algorithm>
 #include <map>
+
 using namespace std;
 
 string solution(string s) {
