@@ -5,7 +5,7 @@
 int solution(int n) {
     int r=1,mul=1;
     while(mul<=n) {
-        mul*=r++;
+        mul*=++r;
     }
-    return r-2;
+    return r-1;
 }
