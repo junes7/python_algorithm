@@ -1,10 +1,10 @@
 # [level 0] 배열 회전시키기 - 120844 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120844?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120844?language=c) 
 
 ### 성능 요약
 
-메모리: 4.12 MB, 시간: 0.01 ms
+메모리: 4.14 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 12일 23:59:53
+2025년 01월 01일 13:55:49
 
 ### 문제 설명
 
