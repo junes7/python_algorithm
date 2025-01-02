@@ -1,10 +1,10 @@
 # [level 0] A로 B 만들기 - 120886 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120886?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120886?language=c) 
 
 ### 성능 요약
 
-메모리: 4.21 MB, 시간: 0.09 ms
+메모리: 3.66 MB, 시간: 0.26 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 01일 23:40:39
+2025년 01월 02일 16:47:40
 
 ### 문제 설명
 
@@ -34,25 +34,13 @@
 <hr>
 
 <h5>입출력 예</h5>
-<table class="table">
-        <thead><tr>
-<th>before</th>
-<th>after</th>
-<th>result</th>
-</tr>
-</thead>
-        <tbody><tr>
-<td>"olleh"</td>
-<td>"hello"</td>
-<td>1</td>
-</tr>
-<tr>
-<td>"allpe"</td>
-<td>"apple"</td>
-<td>0</td>
-</tr>
-</tbody>
-      </table>
+
+<p>| before |after| result |  </p>
+
+<p>| --- | --- | --- |<br>
+| "olleh" | "hello" | 1 |<br>
+| "allpe" | "apple" | 0 |</p>
+
 <hr>
 
 <h5>입출력 예 설명</h5>
