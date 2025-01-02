@@ -11,5 +11,6 @@ char* solution(int q, int r, const char* code) {
         if(i%q==r)   
             ans[idx++]=code[i];
     ans[idx]='\0';
+    ans=(char*)realloc(ans,sizeof(char)*(idx+1));
     return ans;
 }
