@@ -7,7 +7,7 @@ char* solution(const char* s) {
     // return 값은 malloc 등 동적 할당을 사용해주세요. 할당 길이는 상황에 맞게 변경해주세요.
     char* r=(char*)malloc(sizeof(char)*(strlen(s)+1));
     memset(r,0,sizeof(char)*(strlen(s)+1));
-    int cnt=0,al[26]={0};
+    int al[26]={0},cnt=0;
     for(int i=0;i<strlen(s);i++)
         al[s[i]-'a']+=1;
     for(int i=0;i<sizeof(al)/sizeof(int);i++)
