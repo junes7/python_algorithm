@@ -4,7 +4,6 @@ using namespace std;
 
 long long solution(string numbers) {
     long long r=0;
-    int i=0;
     vector<string> nums={"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     for(int i=0;i<nums.size();i++) {
         while(numbers.find(nums[i])!=string::npos) {
