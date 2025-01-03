@@ -1,10 +1,10 @@
 # [level 0] 배열 만들기 4 - 181918 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181918?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181918) 
 
 ### 성능 요약
 
-메모리: 6.55 MB, 시간: 1.17 ms
+메모리: 6.56 MB, 시간: 1.44 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 03일 10:40:11
+2025년 01월 03일 12:44:41
 
 ### 문제 설명
 
