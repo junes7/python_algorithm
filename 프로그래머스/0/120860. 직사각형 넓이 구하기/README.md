@@ -1,6 +1,6 @@
 # [level 0] 직사각형 넓이 구하기 - 120860 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120860?language=c) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120860) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 04일 01:47:20
+2025년 01월 04일 01:47:40
 
 ### 문제 설명
 
