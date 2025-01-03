@@ -1,10 +1,10 @@
 # [level 0] 문자열 겹쳐쓰기 - 181943 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181943?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181943?language=c) 
 
 ### 성능 요약
 
-메모리: 3.69 MB, 시간: 0.01 ms
+메모리: 4.13 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 03일 18:40:12
+2025년 01월 04일 00:16:25
 
 ### 문제 설명
 
