@@ -1,6 +1,6 @@
 # [level 0] 왼쪽 오른쪽 - 181890 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181890?language=c) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181890) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 03일 15:53:29
+2025년 01월 03일 15:53:40
 
 ### 문제 설명
 
