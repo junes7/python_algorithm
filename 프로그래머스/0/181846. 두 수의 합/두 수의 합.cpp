@@ -9,13 +9,12 @@ string solution(string a, string b) {
     if(abs(lendiff)>0) {
         if(lendiff<0)
             lendiff*=-1;
-        for(int i=0;i<lendiff;i++)
-            r+="0";
-        if(a.size()<b.size())
-            a=r+a;
-        else if(a.size()>b.size())
-            b=r+b;
-        r="";
+        for(int i=0;i<lendiff;i++) {
+            if(a.size()<b.size())
+                a="0"+a;
+            else if(a.size()>b.size())
+                b="0"+b;
+        }
     }
     for(int i=a.size()-1;i>=0;i--) {
         if((a[i]-48)+(b[i]-48)+ca>=10) {
