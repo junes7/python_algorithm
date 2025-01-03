@@ -1,10 +1,10 @@
 # [level 0] 그림 확대 - 181836 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181836?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181836?language=c) 
 
 ### 성능 요약
 
-메모리: 4.03 MB, 시간: 0.14 ms
+메모리: 4.15 MB, 시간: 0.15 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 07일 22:58:32
+2025년 01월 04일 00:50:25
 
 ### 문제 설명
 
