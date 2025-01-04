@@ -1,10 +1,10 @@
 # [level 0] 치킨 쿠폰 - 120884 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120884?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120884?language=c) 
 
 ### 성능 요약
 
-메모리: 4.13 MB, 시간: 0.01 ms
+메모리: 4.16 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 05일 14:20:24
+2025년 01월 04일 13:01:46
 
 ### 문제 설명
 
