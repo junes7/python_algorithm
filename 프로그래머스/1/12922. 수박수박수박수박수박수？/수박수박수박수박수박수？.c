@@ -7,8 +7,14 @@ char* solution(int n) {
     char* temp="수박";
     int len=strlen(temp);
     char* r=(char*)malloc(sizeof(char)*(n*len/2+1));
-    for(int i=0;i<n*len/2;i++)
-       r[i]=temp[i%len];
+    memset(r,0,sizeof(char)*(n*len/2+1));
+    // method1 for loop
+    // for(int i=0;i<n*len/2;i++)
+    //    r[i]=temp[i%len];
+    // r[n*len/2]='\0';
+    // method2 use strcat(string concatenate) function
+    for(int i=0;i<n;i++)
+        strcat(r,i%2==0?"수":"박");
     r[n*len/2]='\0';
     return r;
 }
