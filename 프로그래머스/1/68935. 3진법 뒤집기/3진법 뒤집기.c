@@ -5,7 +5,7 @@
 int solution(int n) {
     int r=0,idx=0;
     char ch[8];
-    // memset(ch,0,8);
+    memset(ch,0,8);
     while(n>0) {
         ch[idx++]=n%3+48;
         n/=3;
