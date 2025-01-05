@@ -1,6 +1,6 @@
 # [level 1] 핸드폰 번호 가리기 - 12948 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12948?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12948) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 09일 01:36:25
+2025년 01월 05일 12:03:52
 
 ### 문제 설명
 
