@@ -1,10 +1,10 @@
 # [level 0] OX퀴즈 - 120907 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120907?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120907) 
 
 ### 성능 요약
 
-메모리: 4.02 MB, 시간: 0.05 ms
+메모리: 4.15 MB, 시간: 0.05 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 06일 00:47:26
+2025년 01월 07일 18:06:19
 
 ### 문제 설명
 
