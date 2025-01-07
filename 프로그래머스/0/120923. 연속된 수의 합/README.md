@@ -1,10 +1,10 @@
 # [level 0] 연속된 수의 합 - 120923 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120923?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120923?language=c) 
 
 ### 성능 요약
 
-메모리: 3.67 MB, 시간: 0.03 ms
+메모리: 4.14 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 06일 02:07:01
+2025년 01월 07일 17:56:26
 
 ### 문제 설명
 
