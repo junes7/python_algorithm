@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <cmath>
+#include <iostream>
 #include <algorithm>
 
 using namespace std;
@@ -19,6 +20,7 @@ int solution(int number, int limit, int power) {
                         t.push_back(i/j);
             }
         }
+        cout<<t.size()<<' ';
         r+=(t.size()>limit)?power:t.size();
     }
     return r;
