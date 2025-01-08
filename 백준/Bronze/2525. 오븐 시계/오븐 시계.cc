@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(void) {
-    int h,m,d,t;
+    int h,m,d;
     cin>>h>>m;
     cin>>d;
     if(m+d<60)
