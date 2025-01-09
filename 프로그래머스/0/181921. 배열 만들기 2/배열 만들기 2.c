@@ -5,10 +5,9 @@
 int* solution(int l, int r) {
     // return 값은 malloc 등 동적 할당을 사용해주세요. 할당 길이는 상황에 맞게 변경해주세요.
     int* ans=(int*)malloc(sizeof(int)*(r-l+1));
-    memset(ans,0,sizeof(int)*(r-l+1));
     char ch[7];
     bool flag;
-    int idx=0,re=0;
+    int idx=0;
     for(int i=l;i<r+1;i+=1) {
         sprintf(ch,"%d",i);
         flag=true;
