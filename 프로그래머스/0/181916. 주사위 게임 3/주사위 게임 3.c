@@ -29,15 +29,7 @@ int solution(int a, int b, int c, int d) {
             dcnt[idx++][1]+=1;
         }
     }
-    // for(int i=0;i<idx;i++) {
-    //     printf("%d %d\n",dcnt[i][0],dcnt[i][1]);
-    // }
-    // printf("\n");
     qsort(dcnt,idx,sizeof(int**),compare);
-    // for(int i=0;i<idx;i++) {
-    //     printf("%d %d\n",dcnt[i][0],dcnt[i][1]);
-    // }
-    
     for(int i=0;i<idx;i++) {
         if(dcnt[i][1]==4) {
             r=1111*dcnt[i][0];
