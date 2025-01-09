@@ -1,10 +1,10 @@
 # [level 0] 두 수의 합 - 181846 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181846?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181846?language=c) 
 
 ### 성능 요약
 
-메모리: 4.16 MB, 시간: 196.05 ms
+메모리: 4.52 MB, 시간: 1.23 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 03일 15:06:28
+2025년 01월 09일 18:09:59
 
 ### 문제 설명
 
