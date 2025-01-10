@@ -1,6 +1,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <iostream>
 #include <algorithm>
 
 using namespace std;
@@ -17,13 +18,7 @@ vector<int> solution(vector<int> lottos, vector<int> win_nums) {
                 mis+=1;
         }
     }
-    if(rank.find(l-mis)==rank.end())
-        r.push_back(6);
-    else
-        r.push_back(rank[l-mis]);
-    if(rank.find(l-mis-zero)==rank.end())
-        r.push_back(6);
-    else
-        r.push_back(rank[l-mis-zero]);
+    r.push_back(rank.find(l-mis)!=rank.end()?rank[l-mis]:6);
+    r.push_back(rank.find(l-mis-zero)!=rank.end()?rank[l-mis-zero]:6);
     return r;
 }
