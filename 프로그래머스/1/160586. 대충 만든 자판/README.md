@@ -1,10 +1,10 @@
 # [level 1] 대충 만든 자판 - 160586 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/160586?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/160586?language=c) 
 
 ### 성능 요약
 
-메모리: 4.21 MB, 시간: 2.70 ms
+메모리: 4.27 MB, 시간: 6.28 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 15일 17:08:33
+2025년 01월 10일 22:10:00
 
 ### 문제 설명
 
