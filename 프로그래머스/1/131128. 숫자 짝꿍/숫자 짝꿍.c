@@ -10,24 +10,18 @@ char* solution(const char* X, const char* Y) {
     int xnum[10],ynum[10],minn,idx=0;
     memset(xnum,0,sizeof(int)*10);
     memset(ynum,0,sizeof(int)*10);
-    for(int i=0;i<strlen(X);i++) {
+    for(int i=0;i<strlen(X);i++)
         xnum[X[i]-48]+=1;
-    }
-    for(int i=0;i<strlen(Y);i++) {
+    for(int i=0;i<strlen(Y);i++)
         ynum[Y[i]-48]+=1;
-    }
     for(int i=9;i>=0;i--) {
         minn=xnum[i]<ynum[i]?xnum[i]:ynum[i];
-        for(int j=0;j<minn;j++) {
+        for(int j=0;j<minn;j++)
             r[idx++]=i+48;
-        }
     }
-    // printf("idx: %d\n",idx);
-    if(idx==0) {
+    if(idx==0)
         strcpy(r,"-1");
-    }
-    if(r[0]=='0' && idx>1) {
+    if(r[0]=='0' && idx>1)
         strcpy(r,"0");
-    }
     return r;
 }
