@@ -1,14 +1,13 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
 int main(void) {
-    int n, s = 0;
-    cin >> n;
-    char t[n];
-    cin >> t;
-    for (int i = 0; i < sizeof(t); i++) {
-        s += t[i] - 48;
+    int n,s=0;
+    scanf("%d",&n);
+    char ch[n];
+    scanf("%s",ch);
+    for(int i=0;i<sizeof(ch);i++) {
+        s+=ch[i]-48;
     }
-    cout << s << endl;
+    printf("%d\n",s);
     return 0;
 }
