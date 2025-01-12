@@ -15,13 +15,6 @@ int main(void) {
         num[i] /= maxn;
         s += num[i];
     }
-    if ((double)s / n * 100 == (int)s / n * 100) {
-        cout << fixed;
-        cout.precision(1);
-        cout << (double)s / n * 100 << endl;
-    } else if ((double)s / n * 100 > (int)s / n * 100) {
-        cout.unsetf(ios::fixed);
-        cout << (double)s / n * 100 << endl;
-    }
+    cout << (double)s / n * 100 << endl;
     return 0;
 }
