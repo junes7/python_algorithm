@@ -1,11 +1,5 @@
-def gcd(x,y):
-    if not x%y:
-        return y
-    else:
-        return gcd(y,x%y)
-
-n=int(input())
+import sys,math
+n=int(sys.stdin.readline())
 for i in range(n):
-    a,b=map(int,input().split())
-    lcm=a*b//gcd(a,b)
-    print(lcm)
+    a,b=map(int,sys.stdin.readline().split())
+    print(a*b//math.gcd(a,b))
