@@ -24,5 +24,6 @@ int main(void) {
         if (arr[i] == true)
             printf("%d\n", i);
     }
+    free(arr);
     return 0;
 }
