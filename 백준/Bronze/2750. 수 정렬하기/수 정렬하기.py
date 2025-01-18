@@ -1,7 +1,6 @@
-n=int(input())
-t=[]
-for i in range(n):
-    t+=[int(input())]
-t.sort()
-for i in t:
+import sys
+n=int(sys.stdin.readline())
+num=[int(sys.stdin.readline()) for i in range(n)]
+num.sort()
+for i in num:
     print(i)
