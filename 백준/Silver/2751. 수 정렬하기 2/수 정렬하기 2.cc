@@ -16,7 +16,8 @@ int main(void) {
     }
     map<int, int>::iterator iter;
     for (iter = num.begin(); iter != num.end(); iter++) {
-        cout << iter->first << "\n";
+        for (int j = 0; j < iter->second; j++)
+            cout << iter->first << "\n";
     }
     return 0;
 }
