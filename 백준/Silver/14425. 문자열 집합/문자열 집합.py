@@ -1,8 +1,8 @@
-n,m=map(int,input().split())
-s,r=[],0
-for i in range(n):
-    s+=[input()]
-for j in range(m):
-    if input() in s:
-        r+=1
-print(r)
+import sys
+n,m=map(int,sys.stdin.readline().split())
+s=[sys.stdin.readline().split()[0] for i in range(n)]
+cnt=0
+for i in range(m):
+    if sys.stdin.readline().split()[0] in s:
+        cnt+=1
+print(cnt)
