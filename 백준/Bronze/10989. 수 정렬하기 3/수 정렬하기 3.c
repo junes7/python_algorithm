@@ -1,4 +1,3 @@
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,7 +7,6 @@ int main(void) {
     scanf("%d", &n);
     int num[10001];
     memset(num, 0, sizeof(int) * 10001);
-    bool flag;
     for (int i = 0; i < n; i++) {
         scanf("%d", &elem);
         num[elem] += 1;
