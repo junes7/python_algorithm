@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 int compare(const void *pa, const void *pb) {
     const int *a = *(int **)pa;
     const int *b = *(int **)pb;
-    if (a[0] == b[0])
-        return a[1] > b[1];
+    if (a[0] == b[0]) return a[1] > b[1];
     return a[0] > b[0];
 }
 int main(void) {
@@ -16,8 +14,7 @@ int main(void) {
         scanf("%d %d", &num[i][0], &num[i][1]);
     }
     qsort(num, n, sizeof(int *), compare);
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
         printf("%d %d\n", num[i][0], num[i][1]);
-    }
     return 0;
 }
