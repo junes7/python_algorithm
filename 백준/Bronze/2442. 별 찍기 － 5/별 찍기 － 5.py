@@ -7,5 +7,4 @@ for i in range(n):
         print(' ',end='')
     for j in range(med-i,end-(med-i)):
         print('*',end='')
-    if i<n-1:
-        print()
+    print()
