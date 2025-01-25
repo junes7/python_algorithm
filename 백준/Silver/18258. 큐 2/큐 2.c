@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 int main(void) {
-    int n, num, idx = 0, frt = 0;
+    int n, num, frt = 0, idx = 0;
     scanf("%d", &n);
-    int *que = (int *)malloc(sizeof(int) * 2000000);
-    char *cmd = (char *)malloc(sizeof(char) * 6);
+    char* cmd = (char*)malloc(sizeof(char) * 6);
+    int* que = (int*)malloc(sizeof(int) * n);
     for (int i = 0; i < n; i++) {
         scanf("%s", cmd);
         if (strcmp(cmd, "push") == 0) {
