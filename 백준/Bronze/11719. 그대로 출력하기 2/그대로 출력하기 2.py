@@ -1,7 +1,6 @@
-import sys
 while 1:
-    temp=sys.stdin.readline()
-    if temp=="":
-        break
-    else:
-        print(temp,end='')
+    try:
+        t=input()
+        print(t)
+    except EOFError:
+        break;
