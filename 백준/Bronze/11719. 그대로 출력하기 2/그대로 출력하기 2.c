@@ -2,6 +2,6 @@
 int main(void) {
     char c;
     while ((c = getchar()) != EOF)
-        printf("%c", c);
+        putchar(c);
     return 0;
 }
