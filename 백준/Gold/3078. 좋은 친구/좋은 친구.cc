@@ -3,7 +3,7 @@
 using namespace std;
 int main(void) {
     int n, k;
-    long long cnt = 0;
+    long cnt = 0;
     string t;
     vector<int> name, len_name;
     cin >> n >> k;
