@@ -8,12 +8,11 @@ for j in range(len(s)):
         arr[i][j]=arr[i][j-1]
         if i==idx:
             arr[i][j]+=1
-def solve(ch,start,end):
-    idx=ord(ch)-97
+for _ in range(q):
+    ch,start,end=sys.stdin.readline().rstrip().split()
+    idx=int(ord(ch)-97)
+    start,end=int(start),int(end)
     r=arr[idx][end]
     if start:
         r-=arr[idx][start-1]
-    return r
-for _ in range(q):
-    ch,start,end=sys.stdin.readline().rstrip().split()
-    print(solve(ch,int(start),int(end)))
+    print(r)
