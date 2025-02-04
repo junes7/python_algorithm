@@ -1,5 +1,6 @@
 import sys
-n=int(sys.stdin.readline().rstrip())
+mii=lambda:int(sys.stdin.readline().rstrip())
+n=mii()
 for i in range(n):
-    a=int(sys.stdin.readline().rstrip())
+    a=mii()
     print("even" if a%2==0 else "odd")
