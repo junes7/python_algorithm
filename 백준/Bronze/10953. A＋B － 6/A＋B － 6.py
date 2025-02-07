@@ -1,4 +1,5 @@
-n=int(input())
+import sys
+mii=lambda:sys.stdin.readline().rstrip()
+n=int(mii())
 for i in range(n):
-    a,b=map(int,input().split(","))
-    print(a+b)
+    print(sum(list(map(int,mii().split(',')))))
