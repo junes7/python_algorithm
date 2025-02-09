@@ -13,9 +13,8 @@ int main(void) {
             num[idx++] = atoi(temp);
             temp = strtok(NULL, ",");
         }
-        for (int j = 0; j < idx; j++) {
+        for (int j = 0; j < idx; j++)
             s += num[j];
-        }
         printf("%d\n", s);
     }
     return 0;
