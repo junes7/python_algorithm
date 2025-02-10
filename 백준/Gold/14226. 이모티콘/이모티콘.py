@@ -1,12 +1,10 @@
 import sys
-from collections import deque
 def min_time_to_make_emoticons(s):
     visited=set()
-    queue=deque()
-    queue+=[(1,0,0)]
+    queue=[(1,0,0)]
     visited.add((1,0))
     while queue:
-        screen,clipboard,time=queue.popleft()
+        screen,clipboard,time=queue.pop(0)
         if screen==s:
             return time;
         if (screen,screen) not in visited:
