@@ -10,8 +10,7 @@ void bfs(vector<vector<int>> &arr, vector<int> &visited, int start, int end) {
     while (!q.empty()) {
         node = q.front();
         q.pop();
-        if (node == end)
-            return;
+        if (node == end) return;
         for (int i = 0; i < arr[node].size(); i++) {
             if (visited[arr[node][i]] == -1) {
                 visited[arr[node][i]] = visited[node] + 1;
