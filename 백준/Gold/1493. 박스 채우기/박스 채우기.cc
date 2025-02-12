@@ -3,16 +3,16 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-long fill_boxes(int l, int w, int h, vector<pair<int, int>> &blocks) {
-    long volume = (long)l * w * h, total_cnt = 0, used_volume = 0, size, cnt, max_cnt, use_cnt;
-    for (int i = 0; i < blocks.size(); i++) {
-        size = pow(2, blocks[i].first);
+long fill_boxes(int l, int w, int h, vector<pair<int, int>> &blocks, int n) {
+    long volume = (long)l * w * h, used_volume = 0, total_cnt = 0, size, cnt, max_cnt, use_cnt;
+    for (int i = 0; i < n; i++) {
+        size = 1 << blocks[i].first;
         cnt = blocks[i].second;
         if (volume <= used_volume) break;
         max_cnt = (l / size) * (w / size) * (h / size);
-        max_cnt -= used_volume / (size * size * size);
+        max_cnt -= used_volume / pow(size, 3);
         use_cnt = min(cnt, max_cnt);
-        used_volume += use_cnt * (size * size * size);
+        used_volume += use_cnt * pow(size, 3);
         total_cnt += use_cnt;
     }
     return used_volume == volume ? total_cnt : -1;
@@ -27,6 +27,6 @@ int main(void) {
     sort(blocks.begin(), blocks.end(), [](const pair<int, int> a, const pair<int, int> b) {
         return a.first > b.first;
     });
-    cout << fill_boxes(l, w, h, blocks);
+    cout << fill_boxes(l, w, h, blocks, n);
     return 0;
 }
