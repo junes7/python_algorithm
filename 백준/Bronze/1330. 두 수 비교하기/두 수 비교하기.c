@@ -1,13 +1,7 @@
 #include <stdio.h>
-
 int main(void) {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if(a>b)
-        printf(">\n");
-    else if(a<b)
-        printf("<\n");
-    else
-        printf("==\n");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf(a > b ? ">\n" : (a < b ? "<\n" : "==\n"));
     return 0;
 }
