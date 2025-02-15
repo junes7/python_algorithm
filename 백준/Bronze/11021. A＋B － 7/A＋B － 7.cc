@@ -1,12 +1,10 @@
-#include <iostream>
-using namespace std;
-
+#include <stdio.h>
 int main(void) {
     int n,a,b;
-    cin>>n;
+    scanf("%d",&n);
     for(int i=1;i<n+1;i++) {
-        cin>>a>>b;
-        cout<<"Case #"<<i<<": "<<a+b<<endl;
+        scanf("%d %d",&a,&b);
+        printf("Case #%d: %d\n",i,a+b);
     }
     return 0;
 }
