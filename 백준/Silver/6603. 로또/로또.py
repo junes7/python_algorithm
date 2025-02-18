@@ -2,7 +2,7 @@ import sys
 input=lambda:sys.stdin.readline().rstrip()
 def generate_lottos(numbers,selected,start,target):
     if len(selected)==target:
-        print(*(selected))
+        print(' '.join(map(str,selected)))
         return
     for i in range(start,len(numbers)):
         selected.append(numbers[i])
