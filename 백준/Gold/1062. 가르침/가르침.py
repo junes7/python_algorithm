@@ -4,12 +4,9 @@ input=lambda:sys.stdin.readline().rstrip()
 n,k=map(int,input().split())
 words=[input() for _ in range(n)]
 def solution(n,k,words):
-    alpha=set()
-    if k<5: return 0
     basic={'a','n','t','i','c'}
-    for word in words:
-        for c in word:
-            alpha.add(c)
+    if k<5: return 0
+    alpha=set([c for word in words for c in word])
     alpha,candidates=alpha-basic,[]
     for c in combinations(alpha,min(len(alpha),k-5)):
         learned,count=basic|set(c),0
