@@ -1,19 +1,26 @@
 import sys
-mii=lambda:map(int,sys.stdin.readline().rstrip().split())
-n,m=mii()
-disc=list(mii())
-left,right=max(disc),sum(disc)
-while left<=right:
-    mid=(left+right)//2
-    cnt,total=1,0
-    for d in disc:
-        if total+d<=mid:
-            total+=d
-        else:
-            total=d
+input=lambda:sys.stdin.readline().rstrip()
+n,m=map(int,input().split())
+lessons=list(map(int,input().split()))
+def can_record(lessons,m,size):
+    cnt,cur_sum=1,0
+    for lesson in lessons:
+        if lesson>size:
+            return False
+        if cur_sum+lesson>size:
             cnt+=1
-    if m<cnt:
-        left=mid+1
-    else:
-        right=mid-1
-print(left)
+            cur_sum=0
+        cur_sum+=lesson
+    return cnt<=m
+def min_bluray_size(n,m,lessons):
+    left,right=max(lessons),sum(lessons)
+    result=right
+    while left<=right:
+        mid=(left+right)//2
+        if can_record(lessons,m,mid):
+            result=mid
+            right=mid-1
+        else:
+            left=mid+1
+    return result
+print(min_bluray_size(n,m,lessons))
