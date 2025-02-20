@@ -3,33 +3,38 @@
 #include <numeric>
 #include <vector>
 using namespace std;
-int main(void) {
-    int n, m, elem, left, right, mid;
-    vector<int> disc;
-    cin >> n >> m;
-    for (int i = 0; i < n; i++) {
-        cin >> elem;
-        disc.push_back(elem);
+bool can_record(vector<int> &lessons, int m, int size) {
+    int cnt = 1, cur_sum = 0;
+    for (int i = 0; i < lessons.size(); i++) {
+        if (lessons[i] > size)
+            return false;
+        if (cur_sum + lessons[i] > size) {
+            cnt += 1;
+            cur_sum = 0;
+        }
+        cur_sum += lessons[i];
     }
-    left = *max_element(disc.begin(), disc.end());
-    right = accumulate(disc.begin(), disc.end(), 0);
-    int cnt, total;
+    return cnt <= m;
+}
+int min_bluray_size(int n, int m, vector<int> &lessons) {
+    int result, mid, left = *max_element(lessons.begin(), lessons.end()), right = accumulate(lessons.begin(), lessons.end(), 0);
+    result = right;
     while (left <= right) {
         mid = (left + right) / 2;
-        cnt = 1, total = 0;
-        for (int i = 0; i < n; i++) {
-            if (total + disc[i] <= mid) {
-                total += disc[i];
-            } else {
-                total = disc[i];
-                cnt += 1;
-            }
-        }
-        if (m < cnt)
-            left = mid + 1;
-        else
+        if (can_record(lessons, m, mid)) {
+            result = mid;
             right = mid - 1;
+        } else
+            left = mid + 1;
     }
-    cout << left;
+    return result;
+}
+int main(void) {
+    int n, m;
+    cin >> n >> m;
+    vector<int> lessons(n);
+    for (int i = 0; i < n; i++)
+        cin >> lessons[i];
+    cout << min_bluray_size(n, m, lessons);
     return 0;
 }
