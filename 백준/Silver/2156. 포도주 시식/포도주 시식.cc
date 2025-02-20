@@ -2,8 +2,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int solve(vector<int> &wine, vector<long> &memo, int n) {
-    long case1 = 0, case2 = 0, case3 = 0;
+int solve(vector<int> &wine, vector<int> &memo, int n) {
+    int case1, case2, case3;
     if (n == 0)
         return wine[0];
     else if (n == 1)
@@ -20,8 +20,7 @@ int solve(vector<int> &wine, vector<long> &memo, int n) {
 int main(void) {
     int n;
     cin >> n;
-    vector<int> wine(n);
-    vector<long> memo(n, -1);
+    vector<int> wine(n), memo(n, -1);
     for (int i = 0; i < n; i++)
         cin >> wine[i];
     cout << solve(wine, memo, n - 1);
