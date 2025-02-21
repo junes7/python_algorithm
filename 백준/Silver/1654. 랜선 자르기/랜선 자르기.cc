@@ -2,27 +2,26 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int main(void) {
-    int k, n, cnt;
-    long long left = 1, right, mid;
-    vector<int> lines;
-    cin >> k >> n;
-    for (int i = 0; i < k; i++) {
-        cin >> cnt;
-        lines.push_back(cnt);
-    }
-    right = *max_element(lines.begin(), lines.end());
-    while (left <= right) {
-        mid = (left + right) / 2;
-        cnt = 0;
-        for (int i = 0; i < k; i++) {
-            cnt += lines[i] / mid;
-        }
+long find_max_length(int k, int n, vector<int> &cables) {
+    int cnt;
+    long mid, start = 1, end = *max_element(cables.begin(), cables.end());
+    while (start <= end) {
+        mid = (start + end) / 2, cnt = 0;
+        for (int i = 0; i < k; i++)
+            cnt += cables[i] / mid;
         if (cnt < n)
-            right = mid - 1;
+            end = mid - 1;
         else
-            left = mid + 1;
+            start = mid + 1;
     }
-    cout << right;
+    return end;
+}
+int main(void) {
+    int k, n;
+    cin >> k >> n;
+    vector<int> cables(k);
+    for (int i = 0; i < k; i++)
+        cin >> cables[i];
+    cout << find_max_length(k, n, cables);
     return 0;
 }
