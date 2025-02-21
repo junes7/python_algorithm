@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 long find_kth_length(long n, long k) {
-    long r, mid, cnt, left = 1, right = n * n;
+    long r=0, mid, cnt, left = 1, right = n * n;
     while (left <= right) {
         mid = (left + right) / 2;
         cnt = 0;
