@@ -1,14 +1,16 @@
 import sys
-k,n=map(int,sys.stdin.readline().rstrip().split())
-lines=[int(sys.stdin.readline().rstrip()) for _ in range(k)]
-start,end=1,max(lines)
-while start<=end:
-    cnt=0
-    mid=(start+end)//2;
-    for line in lines:
-        cnt+=line//mid
-    if cnt<n:
-        end=mid-1;
-    else:
-        start=mid+1;
-print(end)
+input=lambda:sys.stdin.readline().rstrip()
+def find_max_length(k,n,cables):
+    start,end=1,max(cables)
+    while start<=end:
+        mid,cnt=(start+end)//2,0
+        for cable in cables:
+            cnt+=cable//mid
+        if cnt<n:
+            end=mid-1
+        else:
+            start=mid+1
+    return end
+k,n=map(int,input().split())
+cables=[int(input()) for _ in range(k)]
+print(find_max_length(k,n,cables))
