@@ -2,20 +2,25 @@
 #include <vector>
 using namespace std;
 int main(void) {
-    int n, remain;
+    int n;
+    long remain;
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
     cin >> n;
-    vector<int> stone(n), dp(n, 0);
-    for (int i = 0; i < n; i++)
+    vector<long> stone(n + 1, 0), dp(n + 1, 0);
+    for (int i = 1; i < n + 1; i++)
         cin >> stone[i];
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i < n + 1; i++) {
         remain = stone[i];
-        if (i > 0 && i < n)
-            dp[i] = max(dp[i], dp[i - 1]);
-        for (int j = i + 1; j < n; j++) {
+        dp[i] = max(dp[i], dp[i - 1]);
+        for (int j = i + 1; j < n + 1; j++) {
             remain = stone[j] - remain;
-            if (remain < 0) break;
-            if (remain == 0)
-                dp[j] = min(dp[j], dp[i - 1]) + 1;
+            if (remain < 0)
+                break;
+            else if (remain == 0) {
+                dp[j] = max(dp[j], dp[i - 1] + 1);
+                break;
+            }
         }
     }
     cout << n - dp[dp.size() - 1];
