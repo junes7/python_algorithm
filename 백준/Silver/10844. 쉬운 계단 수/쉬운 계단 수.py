@@ -1,10 +1,9 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-n=int(input())
-mod=1000000000
+n,mod=int(input()),1000000000
 dp=[[0]*10 for _ in range(n+1)]
-for i in range(1,10):
-    dp[1][i]=1
+for j in range(1,10):
+    dp[1][j]=1
 for i in range(2,n+1):
     for j in range(10):
         if 0<j:
