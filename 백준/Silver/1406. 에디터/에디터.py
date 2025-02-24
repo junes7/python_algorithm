@@ -1,7 +1,7 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-left_stack,right_stack=[*input()],[]
-for i in range(int(input())):
+left_stack,right_stack=list(input()),[]
+for _ in range(int(input())):
     command=input()
     if command=="L":
         if left_stack:
@@ -13,5 +13,6 @@ for i in range(int(input())):
         if left_stack:
             left_stack.pop()
     elif command.startswith("P"):
-        left_stack.append(command[-1])
-print(''.join(left_stack+right_stack[::-1]))
+        _,char=command.split()
+        left_stack.append(char)
+sys.stdout.write(''.join(left_stack+right_stack[::-1]))
