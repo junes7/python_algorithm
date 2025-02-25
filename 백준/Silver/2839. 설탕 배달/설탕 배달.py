@@ -1,12 +1,11 @@
-import sys
-n=int(sys.stdin.readline())
-bags,cnt=[5,3],0
-if n>bags[0]:
-    while n%bags[0]>0:
-        n-=bags[1]
-        cnt+=1
-if n>0:
-    for i in range(len(bags)):
-        cnt+=n//bags[i]
-        n%=bags[i]
-print(-1 if n!=0 else cnt)
+n = int(input())
+bag_count = 0
+while n >= 0:
+    if n%5==0: 
+        bag_count+=n//5
+        print(bag_count)
+        break
+    bag_count += 1
+    n=n-3
+else:
+    print(-1)
