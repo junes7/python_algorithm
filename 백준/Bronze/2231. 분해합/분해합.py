@@ -1,10 +1,15 @@
 import sys
-n=int(sys.stdin.readline().rstrip())
-num=0
-for i in range(1,n+1):
-    num,t=i,i
-    for a in str(t):
-        t+=int(a)
-    if t==n:
+input=lambda:sys.stdin.readline().rstrip()
+n=int(input())
+def digit_sum(num):
+    total=0
+    while num>0:
+        total+=num%10
+        num//=10
+    return total
+result=0
+for i in range(max(1,n-len(str(n)*9)),n):
+    if i+digit_sum(i)==n:
+        result=i
         break
-print(0 if num==n else num)
+print(result)
