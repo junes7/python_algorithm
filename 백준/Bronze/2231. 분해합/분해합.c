@@ -1,19 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int main(void) {
-    int n, len, num = 0, t;
-    char *s = (char *)malloc(sizeof(char) * 7);
-    scanf("%d", &n);
-    for (int i = 1; i < n + 1; i++) {
-        num = i, t = i;
-        sprintf(s, "%d", i);
-        len = strlen(s);
-        for (int i = 0; i < len; i++)
-            t += s[i] - 48;
-        if (t == n)
-            break;
+int digit_sum(int num) {
+    int total = 0;
+    while (num > 0) {
+        total += num % 10;
+        num /= 10;
     }
-    printf("%d", num == n ? 0 : num);
+    return total;
+}
+int main(void) {
+    int n, rlt = 0, len;
+    scanf("%d", &n);
+    char *st = (char *)malloc(sizeof(char) * 7);
+    sprintf(st, "%d", n);
+    len = n - strlen(st) * 9;
+    for (int i = 1 < len ? len : 1; i < n; i++) {
+        if (i + digit_sum(i) == n) {
+            rlt = i;
+            break;
+        }
+    }
+    printf("%d", rlt);
     return 0;
 }
