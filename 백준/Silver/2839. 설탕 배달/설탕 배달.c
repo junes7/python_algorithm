@@ -1,18 +1,16 @@
 #include <stdio.h>
-
 int main(void) {
-    int n, cnt = 0, bags[2] = {5, 3};
-    scanf("%d", &n);
-    if (n > bags[0]) {
-        while (n % bags[0] > 0) {
-            n -= bags[1];
-            cnt += 1;
+    int num, cnt = 0;
+    scanf("%d", &num);
+    while (num >= 0) {
+        if (num % 5 == 0) {
+            cnt += num / 5;
+            printf("%d", cnt);
+            break;
         }
+        cnt += 1;
+        num -= 3;
     }
-    for (int i = 0; i < sizeof(bags) / sizeof(int); i++) {
-        cnt += n / bags[i];
-        n %= bags[i];
-    }
-    printf("%d", n != 0 ? -1 : cnt);
+    if (num < 0) printf("%d", -1);
     return 0;
 }
