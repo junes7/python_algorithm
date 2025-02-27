@@ -1,25 +1,18 @@
 #include <iostream>
-#include <vector>
 using namespace std;
-
 int main(void) {
-    int n, cnt = 0;
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    vector<int> bags = {5, 3};
-    cin >> n;
-    if (n > bags[0]) {
-        while (n % bags[0]) {
-            n -= bags[1];
-            cnt += 1;
+    int num, cnt = 0;
+    cin >> num;
+    while (num >= 0) {
+        if (num % 5 == 0) {
+            cnt += num / 5;
+            cout << cnt;
+            break;
         }
+        cnt += 1;
+        num -= 3;
     }
-    if (n > 0) {
-        for (int i = 0; i < bags.size(); i++) {
-            cnt += n / bags[i];
-            n %= bags[i];
-        }
-    }
-    cout << (n != 0 ? -1 : cnt);
+    if (num < 0)
+        cout << -1;
     return 0;
 }
