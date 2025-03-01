@@ -1,15 +1,11 @@
 import sys
-n,m=map(int,sys.stdin.readline().split())
-num=list(map(int,sys.stdin.readline().split()))
-num.sort(reverse=True)
-suml=[]
-for i in range(n-2):
-    for j in range(i+1,n-1):
-        for k in range(j+1,n):
-            sumn=num[i]+num[j]+num[k]
-            if sumn==m:
-                suml+=[sumn]
-                break
-            elif sumn<m:
-                suml+=[sumn]
-print(max(suml))
+from itertools import combinations
+input=lambda:sys.stdin.readline().rstrip()
+n,m=map(int,input().split())
+cards=[*map(int,input().split())]
+max_sum=0
+for combo in combinations(cards,3):
+    cur_sum=sum(combo)
+    if cur_sum<=m:
+        max_sum=max(max_sum,cur_sum)
+print(max_sum)
