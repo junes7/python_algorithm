@@ -10,8 +10,8 @@ while True:
             flag=False
             break
         rlt+=[abs(arr[i]-arr[i+1])]
-    rlt.sort()
     if flag:
+        rlt.sort()
         for i in range(n-2):
             if i+1!=rlt[i]:
                 flag=False
