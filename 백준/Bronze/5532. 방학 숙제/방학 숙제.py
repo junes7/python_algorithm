@@ -1,0 +1,10 @@
+import sys
+input=lambda:sys.stdin.readline().rstrip()
+L=int(input())
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+lang=A//C + (0 if A%C==0 else 1)
+math=B//D + (0 if B%D==0 else 1)
+print(L-(math if math>=lang else lang))
