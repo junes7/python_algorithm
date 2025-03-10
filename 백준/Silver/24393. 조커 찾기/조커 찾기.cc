@@ -6,6 +6,8 @@ int main(void) {
     int n, elem, next, left_sum, right_sum, joker = 1;
     string st;
     vector<int> A;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     getline(cin, st);
     n = stoi(st);
     for (int i = 0; i < n; i++) {
