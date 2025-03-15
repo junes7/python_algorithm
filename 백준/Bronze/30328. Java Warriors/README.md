@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 108384 KB, 시간: 88 ms
+메모리: 2020 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,13 +12,13 @@
 
 ### 제출 일자
 
-2025년 3월 15일 12:41:41
+2025년 3월 15일 12:42:48
 
 ### 문제 설명
 
 <p>Jerry has earned acclaim as a renowned coach in the highly competitive realm of the International Collegiate Programming Contest (ICPC). His coaching prowess is exemplified by his unique approach — meticulously training his students to excel in ICPC competitions by harnessing the power of Java, a programming language seldom utilized in this arena. Consequently, Jerry's teams have become synonymous with excellence and are affectionately known as the "Java Warriors."</p>
 
-<p>Jerry coaches $n$ teams to compete in the 2023 ICPC Taoyuan Regional Contest. The registration fee is $4000$ dollars per team, and Jerry does not have enough funds to pay for all Java Warriors. Jerry, facing a financial challenge in coaching multiple teams for the 2023 ICPC Taoyuan Regional Contest, prays to God with a heartfelt and sincere prayer.</p>
+<p>Jerry coaches <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D45B TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$n$</span></mjx-container> teams to compete in the 2023 ICPC Taoyuan Regional Contest. The registration fee is <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c34"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>4000</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$4000$</span></mjx-container> dollars per team, and Jerry does not have enough funds to pay for all Java Warriors. Jerry, facing a financial challenge in coaching multiple teams for the 2023 ICPC Taoyuan Regional Contest, prays to God with a heartfelt and sincere prayer.</p>
 
 <p>"Dear God,</p>
 
@@ -40,7 +40,7 @@
 
 ### 입력 
 
- <p>The input contains a positive integer $n$ indicating there are $n$ teams of Jerry's Java Warriors registering for the 2023 ICPC Taoyuan Regional Contest. $n$ is no more than $20$.</p>
+ <p>The input contains a positive integer <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D45B TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$n$</span></mjx-container> indicating there are <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D45B TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$n$</span></mjx-container> teams of Jerry's Java Warriors registering for the 2023 ICPC Taoyuan Regional Contest. <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D45B TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$n$</span></mjx-container> is no more than <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>20</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$20$</span></mjx-container>.</p>
 
 ### 출력 
 
