@@ -1,26 +1,24 @@
-import sys
-from heapq import heappush,heappop
+import sys,heapq
 input=lambda:sys.stdin.readline().rstrip()
 n=int(input())
 m=int(input())
-arr=[[] for _ in range(n+1)]
+graph=[[] for _ in range(n+1)]
 for _ in range(m):
     u,v,w=map(int,input().split())
-    arr[u]+=[(v,w)]
-S,E=map(int,input().split())
-INF=float("INF")
-dist=[INF]*(n+1)
-def dijkstra(s):
-    visited=[False]*(n+1)
-    q,dist[s]=[(0,s)],0
-    while q:
-        d,v=heappop(q)
-        if visited[v]: continue
-        visited[v]=True
-        for i,nv in arr[v]:
-            distance=d+nv
-            if distance<dist[i]:
-                dist[i]=distance
-                heappush(q,(distance,i))
-dijkstra(S)
-print(dist[E])
+    graph[u]+=[(v,w)]
+start,end=map(int,input().split())
+def dijkstra(start, end, graph, n):
+    distances = [float('inf')] * (n + 1)
+    distances[start] = 0
+    priority_queue = [(0, start)]
+    while priority_queue:
+        current_distance, current_node = heapq.heappop(priority_queue)
+        if current_distance>distances[current_node]:
+            continue
+        for adjacent, weight in graph[current_node]:
+            distance = current_distance+weight
+            if distance<distances[adjacent]:
+                distances[adjacent] = distance
+                heapq.heappush(priority_queue, (distance, adjacent))
+    return distances[end]
+print(dijkstra(start,end,graph,n))
