@@ -6,9 +6,9 @@ int main(void) {
     int len, sums;
     vector<int> sci(4), hist(2), total;
     for (int i = 0; i < 4; i++)
-        scanf("%d", &sci[i]);
+        cin >> sci[i];
     for (int i = 0; i < 2; i++)
-        scanf("%d", &hist[i]);
+        cin >> hist[i];
     len = sci.size();
     for (int i = 0; i < len - 2; i++) {
         for (int j = i + 1; j < len - 1; j++) {
