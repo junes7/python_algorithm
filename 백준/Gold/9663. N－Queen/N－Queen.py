@@ -1,19 +1,18 @@
-n=int(input())
-arr=[0]*n
-def is_possible(r):
-    for i in range(r):
-        if arr[r]==arr[i]:
-            return False
-        if r-i==abs(arr[r]-arr[i]):
-            return False
-    return True
-def dfs(row):
-    if row==n:
-        return 1
-    ans=0
-    for i in range(n):
-        arr[row]=i
-        if is_possible(row):
-            ans+=dfs(row+1)
-    return ans
-print(dfs(0))
+def solve_n_queens(n):
+    def dfs(row):
+        if row == n:
+            return 1
+        count = 0
+        for col in range(n):
+            if not (cols[col] or diag1[row + col] or diag2[row - col + n - 1]):
+                cols[col] = diag1[row + col] = diag2[row - col + n - 1] = True
+                count += dfs(row+1)
+                cols[col] = diag1[row + col] = diag2[row - col + n - 1] = False
+        return count
+    cols = [False] * n
+    diag1 = [False] * (2 * n - 1)
+    diag2 = [False] * (2 * n - 1)
+    return dfs(0)
+if __name__ == "__main__":
+    N = int(input())
+    print(solve_n_queens(N))
