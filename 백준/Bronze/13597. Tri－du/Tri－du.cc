@@ -1,8 +1,7 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 int main(void) {
     int A, B;
-    cin >> A >> B;
-    cout << (A > B ? A : B);
+    scanf("%d %d", &A, &B);
+    printf("%d", A > B ? A : B);
     return 0;
 }
