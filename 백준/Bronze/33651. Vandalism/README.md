@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 2024 KB, 시간: 0 ms
+메모리: 1112 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 3월 21일 15:30:15
+2025년 3월 21일 15:52:35
 
 ### 문제 설명
 
@@ -22,9 +22,9 @@
 
 ### 입력 
 
- <p>The first line of input contains a string $s$ of length at most $3$. It is guaranteed that $s$ is non-empty and can be obtained by removing some characters from <code>UAPC</code>, while preserving the order of the remaining letters. It is guaranteed that at least one character has been removed.</p>
+ <p>The first line of input contains a string <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D460 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$s$</span></mjx-container> of length at most <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c33"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$3$</span></mjx-container>. It is guaranteed that <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D460 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$s$</span></mjx-container> is non-empty and can be obtained by removing some characters from <code>UAPC</code>, while preserving the order of the remaining letters. It is guaranteed that at least one character has been removed.</p>
 
 ### 출력 
 
- <p>Output a string consisting of the characters removed from <code>UAPC</code> to obtain $s$, listed in the order they appear in <code>UAPC</code>.</p>
+ <p>Output a string consisting of the characters removed from <code>UAPC</code> to obtain <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D460 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>s</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$s$</span></mjx-container>, listed in the order they appear in <code>UAPC</code>.</p>
 
