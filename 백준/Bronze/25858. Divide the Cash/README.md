@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 2020 KB, 시간: 0 ms
+메모리: 1112 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,11 +12,11 @@
 
 ### 제출 일자
 
-2025년 3월 21일 18:56:08
+2025년 3월 21일 19:01:57
 
 ### 문제 설명
 
-<p>The UCF Programming Team coaches schedule practices regularly in fall and spring (by the way, all UCF students are welcome to the practices). During summer, the majority of the team members are gone but the coaches know how to make sure the students don’t get “rusty”. The coaches usually give prize money and reward the team members based on how many problems they solve during summer. For example, let’s assume the coaches have \$1,000 in prize money and there are three students. Let’s also assume the three students solve, respectively, 5, 8 and 7 problems, i.e., a total of 20 problems. So, the reward for one problem will be \$50 (\$1000/20) and the three team members will receive, respectively, \$250, $400 and \$350.</p>
+<p>The UCF Programming Team coaches schedule practices regularly in fall and spring (by the way, all UCF students are welcome to the practices). During summer, the majority of the team members are gone but the coaches know how to make sure the students don’t get “rusty”. The coaches usually give prize money and reward the team members based on how many problems they solve during summer. For example, let’s assume the coaches have <span>$</span>1,000 in prize money and there are three students. Let’s also assume the three students solve, respectively, 5, 8 and 7 problems, i.e., a total of 20 problems. So, the reward for one problem will be <span>$</span>50 (<span>$</span>1000/20) and the three team members will receive, respectively, <span>$</span>250, $400 and <span>$</span>350.</p>
 
 <p>Given the total prize money and the number of problems each team member has solved, compute the reward for each student.</p>
 
