@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 2020 KB, 시간: 0 ms
+메모리: 1116 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 3월 22일 10:28:46
+2025년 3월 22일 11:45:48
 
 ### 문제 설명
 
@@ -22,13 +22,13 @@
 
 <p style="text-align: center;"><img alt="" height="575" src="https://u.acmicpc.net/0f2cbf9b-ba73-4836-b050-b41d66960aee/download%20%2824%29.png" width="738"></p>
 
-<p>헬로빗은 이러한 엘리스 트랙에 매력을 느껴 친구들 $N$명을 모아 같이 엘리스 트랙에 지원하려 한다. 헬로빗의 친구들과 헬로빗이 지원하는 트랙에 대한 정보가 주어질 때, 헬로빗이 지원하는 트랙과 같은 트랙을 지원하는 헬로빗의 친구들은 총 몇 명이 있는지 출력하는 프로그램을 작성해 보자.</p>
+<p>헬로빗은 이러한 엘리스 트랙에 매력을 느껴 친구들 <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>명을 모아 같이 엘리스 트랙에 지원하려 한다. 헬로빗의 친구들과 헬로빗이 지원하는 트랙에 대한 정보가 주어질 때, 헬로빗이 지원하는 트랙과 같은 트랙을 지원하는 헬로빗의 친구들은 총 몇 명이 있는지 출력하는 프로그램을 작성해 보자.</p>
 
 ### 입력 
 
- <p>첫 번째 줄에 친구들의 수를 의미하는 정수 $N$이 주어진다. $(1 \leq N \leq 10 \, 000)$</p>
+ <p>첫 번째 줄에 친구들의 수를 의미하는 정수 <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>이 주어진다. <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mo class="mjx-n"><mjx-c class="mjx-c28"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2264"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="4"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c2264"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mstyle><mjx-mspace style="width: 0.167em;"></mjx-mspace></mjx-mstyle><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-mo class="mjx-n"><mjx-c class="mjx-c29"></mjx-c></mjx-mo></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">(</mo><mn>1</mn><mo>≤</mo><mi>N</mi><mo>≤</mo><mn>10</mn><mstyle scriptlevel="0"><mspace width="0.167em"></mspace></mstyle><mn>000</mn><mo stretchy="false">)</mo></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$(1 \leq N \leq 10 \, 000)$</span> </mjx-container></p>
 
-<p>두 번째 줄에 헬로빗의 친구들이 지원하는 엘리스 트랙에 대한 정보 $N$개가 공백으로 구분되어 주어진다.</p>
+<p>두 번째 줄에 헬로빗의 친구들이 지원하는 엘리스 트랙에 대한 정보 <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>개가 공백으로 구분되어 주어진다.</p>
 
 <p>세 번째 줄에 헬로빗이 지원하는 엘리스 트랙에 대한 정보가 주어진다.</p>
 
