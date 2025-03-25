@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 int main(void) {
-    string st, t;
+    string st;
     int idx = 0, s = 0;
     vector<int> arr(3);
     getline(cin, st);
