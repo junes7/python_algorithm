@@ -1,7 +1,7 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
 n=int(input())
-arr=sorted([*map(int,input().split())])
+arr=[*map(int,input().split())]
 called,cnt=[],0
 len=max(arr)
 for i in range(1,len+1):
@@ -11,4 +11,4 @@ for i in range(1,len+1):
                 called+=[i]
             else:
                 cnt+=1
-print(cnt) 
+print(cnt)
