@@ -8,7 +8,7 @@ for _ in range(t):
     cnt=0
     for i in y:
         for j in x:
-            for t in range(102):
+            for t in range(101):
                 if i==t and t==j:
                     cnt+=1
     print(cnt)
