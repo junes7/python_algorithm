@@ -2,11 +2,11 @@
 #include <vector>
 using namespace std;
 int main(void) {
-    int n, idx;
+    int n;
     cin >> n;
     vector<int> arr(10), rlt;
     for (int i = 0; i < n; i++) {
-        idx = 0, rlt = {};
+        rlt = {};
         for (int j = 0; j < 10; j++) {
             cin >> arr[j];
             cout << arr[j] << ' ';
