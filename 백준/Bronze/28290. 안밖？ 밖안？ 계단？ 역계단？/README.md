@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 108384 KB, 시간: 88 ms
+메모리: 2024 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 4월 16일 23:51:58
+2025년 4월 17일 00:40:48
 
 ### 문제 설명
 
@@ -63,7 +63,7 @@
 
 ### 입력 
 
- <p>길이가 8인 문자열 $S$가 주어진다. 문자열 $S$는 각 문자 <code>a</code>, <code>s</code>, <code>d</code>, <code>f</code>, <code>j</code>, <code>k</code>, <code>l</code>, <code>;</code>가 정확히 한 번씩 등장한다.</p>
+ <p>길이가 8인 문자열 <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D446 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$S$</span></mjx-container>가 주어진다. 문자열 <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D446 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$S$</span></mjx-container>는 각 문자 <code>a</code>, <code>s</code>, <code>d</code>, <code>f</code>, <code>j</code>, <code>k</code>, <code>l</code>, <code>;</code>가 정확히 한 번씩 등장한다.</p>
 
 ### 출력 
 
