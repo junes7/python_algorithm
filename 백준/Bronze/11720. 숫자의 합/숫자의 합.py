@@ -1,6 +1,8 @@
+import sys
+input=lambda:sys.stdin.readline().rstrip()
 n=int(input())
-t=input()
-s=0
+st=input()
+cnt=0
 for i in range(n):
-    s+=int(t[i])
-print(s)
+    cnt+=int(st[i])
+print(cnt)
