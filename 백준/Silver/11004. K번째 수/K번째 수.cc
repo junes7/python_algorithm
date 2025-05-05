@@ -1,20 +1,16 @@
-#include <cstdlib>
+#include <algorithm>
 #include <iostream>
+#include <vector>
 using namespace std;
-int compare(const void *pa, const void *pb) {
-    const int a = *(int *)pa;
-    const int b = *(int *)pb;
-    return a - b;
-}
 int main(void) {
-    int n, k, *arr;
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+    int n, k;
     cin >> n >> k;
-    arr = (int *)malloc(sizeof(int) * n);
+    vector<int> arr(n, 0);
     for (int i = 0; i < n; i++)
         cin >> arr[i];
-    qsort(arr, n, sizeof(int), compare);
+    sort(arr.begin(), arr.end(), less<int>());
     cout << arr[k - 1];
     return 0;
 }
