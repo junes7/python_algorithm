@@ -2,7 +2,7 @@ import sys
 input=lambda:sys.stdin.readline().rstrip()
 def solution(n,arr,que):
     dp=[[False]*(n+1) for _ in range(n+1)]
-    for i in range(n+1):
+    for i in range(n):
         for j in range(1,n+1-i):
             s,e=j,j+i
             if s==e or (arr[s]==arr[e] and (s+1==e or dp[s+1][e-1])):
