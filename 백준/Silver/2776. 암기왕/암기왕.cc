@@ -8,10 +8,12 @@ int binary_search(int s, int e, vector<int> &nb1, int num) {
         mid = (s + e) / 2;
         if (nb1[mid] == num)
             return 1;
-        else if (nb1[mid] < num)
-            s = mid + 1;
-        else
-            e = mid - 1;
+        else {
+            if (nb1[mid] < num)
+                s = mid + 1;
+            else
+                e = mid - 1;
+        }
     }
     return 0;
 }
@@ -19,7 +21,6 @@ int main(void) {
     int k, n, m;
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    cout.tie(NULL);
     cin >> k;
     for (int i = 0; i < k; i++) {
         cin >> n;
