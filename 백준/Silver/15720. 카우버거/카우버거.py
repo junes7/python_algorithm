@@ -1,18 +1,11 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-b, c, d = map(int, input().split())
-burger = list(map(int, input().split()))
-side = list(map(int, input().split()))
-drink = list(map(int, input().split()))
-burger.sort(reverse=True)
-side.sort(reverse=True)
-drink.sort(reverse=True)
-result = 0
-min_value = min(b, c, d)
-for i in range(min_value) :
-    result += (burger[i] + side[i] + drink[i]) * 0.9
-result += sum(burger[min_value::])
-result += sum(side[min_value::])
-result += sum(drink[min_value::])
-print(sum(burger) + sum(side) + sum(drink))
-print(int(result))
+b,c,d=map(int,input().split())
+burgers=sorted([*map(int,input().split())],reverse=True)
+sides=sorted([*map(int,input().split())],reverse=True)
+drinks=sorted([*map(int,input().split())],reverse=True)
+min_val,rlt=min(b,c,d),0
+for i in range(min_val):
+    rlt+=int((burgers[i]+sides[i]+drinks[i])*0.9)
+rlt+=sum(burgers[min_val:]+sides[min_val:]+drinks[min_val:])
+print(sum(burgers)+sum(sides)+sum(drinks),rlt,sep="\n")
