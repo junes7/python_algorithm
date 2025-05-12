@@ -1,11 +1,10 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-n = int(input())
-x = y = 100
-for _ in range(n):
-    a, b = map(int, input().split())
-    if a > b:
-        y -= a
-    elif a < b:
-        x -= b
-print(x, y, sep = "\n")
+total=[100,100]
+for _ in range(int(input())):
+    x,y=map(int,input().split())
+    if x<y:
+        total[0]-=y
+    elif x>y:
+        total[1]-=x
+print(*total,sep="\n")
