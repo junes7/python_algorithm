@@ -1,22 +1,11 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-for k in range(1,int(input())+1):
-    height_sort = []
-    height = list(map(int, input().split()))
-    ans = 0
-    for i in range(1,len(height)):
-        if i == 1:
-            height_sort.append(height[i])
-            continue
-
-        now = height[i]
-        if now > max(height_sort):
-            height_sort.append(now)
-            continue
-
-        for j in range(len(height_sort)):
-            if height_sort[j] > now:
-                height_sort.insert(j, now)
-                ans += (len(height_sort) - j - 1)
-                break
-    print(k,ans)
+for _ in range(int(input())):
+    arr=[*map(int,input().split())]
+    total,l=0,len(arr)
+    for i in range(1,l-1):
+        for j in range(i+1,l):
+            if arr[i]>arr[j]:
+                arr[i],arr[j]=arr[j],arr[i]
+                total+=1
+    print(arr[0],total)
