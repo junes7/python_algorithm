@@ -1,6 +1,5 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-t=0.0
 for _ in range(int(input())):
     arr=input().split()
     t=float(arr[0])
