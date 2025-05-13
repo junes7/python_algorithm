@@ -1,10 +1,10 @@
-import sys
+import sys,math
 input=lambda:sys.stdin.readline().rstrip()
 for _ in range(int(input())):
-    cre,total=0,0.0
-    for _ in range(int(input())):
-        c,g=input().split()
-        c,g=int(c),float(g)
+    cre,total=0,0
+    n=int(input())
+    for i in range(n):
+        c,g=map(float,input().split())
         cre+=c
         total+=c*g
-    print(cre,round(total/cre,1))
+    print(int(cre),round(total/cre,1))
