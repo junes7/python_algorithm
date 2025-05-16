@@ -7,5 +7,5 @@ if time<0:
     time+=60*60*24
 h3=time//3600
 m3=(time%3600)//60
-s3=time%60
+s3=(time%3600)%60
 print("%02d:%02d:%02d" % (h3,m3,s3))
