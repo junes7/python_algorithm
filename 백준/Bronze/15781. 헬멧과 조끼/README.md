@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 109544 KB, 시간: 116 ms
+메모리: 2020 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 5월 18일 23:31:52
+2025년 5월 18일 23:39:32
 
 ### 문제 설명
 
@@ -22,7 +22,7 @@
 
 <p>맵에 존재하는 조끼와 헬멧의 방어력이 주어졌을 때 경수를 도와 경수가 얻을 수 있는 방어력의 최댓값을 구해주자.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 66px; height: 111px;"></p>
+<p style="text-align: center;"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15781/1.png" style="width: 66px; height: 111px;"></p>
 
 ### 입력 
 
