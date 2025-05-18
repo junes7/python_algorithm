@@ -1,8 +1,5 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-n = int(input())
-w = sum(map(int, input().split()))
-if w % 3 == 0:
-    print('yes')
-else:
-    print('no')
+n=int(input())
+w=sum(map(int,input().split()))
+print("yes" if w%3==0 else "no")
