@@ -1,10 +1,10 @@
+import sys
+input=lambda:sys.stdin.readline().rstrip()
 while 1:
-    li = list(map(int, input().split()))
-    if li[0] == 0:
-        break
-    n = 1
-    for i in range(li[0]):
-        sf = li[2*i + 1]
-        p = li[2*i + 2]
-        n = n*sf - p
-    print(n)
+    line = list(map(int, input().split()))
+    if line[0] == 0: break
+    leaf = 1
+    for i in range(1, len(line), 2):
+        leaf *= line[i]
+        leaf -= line[i + 1]
+    print(leaf)
