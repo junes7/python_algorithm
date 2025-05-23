@@ -9,4 +9,4 @@ for _ in range(n):
         t_bed+=a
     t_area+=a
     t_price+=(a/2.0 if name=="balcony" else a)*c
-print(t_area,t_bed,t_price,sep="\n")
+print(f"{t_area}\n{t_bed}\n{t_price:.6f}")
