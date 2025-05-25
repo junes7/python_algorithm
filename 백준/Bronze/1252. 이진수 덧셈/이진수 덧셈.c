@@ -2,46 +2,40 @@
 #include <stdlib.h>
 #include <string.h>
 int main(void) {
-    int lena, lenb, carry = 0, total, idx;
+    int carry, lena, lenb;
     char *a = (char *)malloc(sizeof(char) * 81);
     char *b = (char *)malloc(sizeof(char) * 81);
-    char *temp = (char *)malloc(sizeof(char) * 82);
-    char *res = (char *)malloc(sizeof(char) * 82);
-    memset(res, 0, sizeof(char) * 82);
-    scanf("%s %s", a, b);
-    lena = strlen(a), lenb = strlen(b);
-    if (lena < lenb) {
-        strcpy(temp, a);
-        strcpy(a, b);
-        strcpy(b, temp);
-    }
-    lena = strlen(a), lenb = strlen(b);
-    for (int i = 0; i < lena - lenb; i++) {
-        strcpy(temp, "0");
-        strcat(temp, b);
-        strcpy(b, temp);
-    }
-    lenb = strlen(b);
-    for (int i = lena - 1; i >= 0; i--) {
-        total = (a[i] - 48) + (b[i] - 48);
-        if (carry + total == 3 || carry + total == 1) {
-            strcpy(temp, "1");
-            strcat(temp, res);
-            strcpy(res, temp);
-            carry = carry + total == 3 ? 1 : 0;
-        } else if (carry + total == 2 || carry + total == 0) {
-            strcpy(temp, "0");
-            strcat(temp, res);
-            strcpy(res, temp);
-            carry = carry + total == 2 ? 1 : 0;
+    char *t = (char *)malloc(sizeof(char) * 83);
+    char *rlt = (char *)malloc(sizeof(char) * 83);
+    for (int i = 0; i < 1; i++) {
+        scanf("%s %s", a, b);
+        carry = 0;
+        memset(rlt, 0, sizeof(char) * 83);
+        lena = strlen(a), lenb = strlen(b);
+        if (lena < lenb) {
+            strcpy(t, a);
+            strcpy(a, b);
+            strcpy(b, t);
         }
+        lena = strlen(a), lenb = strlen(b);
+        for (int i = 0; i < lena - lenb; i++) {
+            strcpy(t, "0");
+            strcat(t, b);
+            strcpy(b, t);
+        }
+        for (int i = lena - 1; i >= 0; i--) {
+            sprintf(t, "%d", (carry + a[i] - 48 + b[i] - 48) % 2);
+            strcat(t, rlt);
+            strcpy(rlt, t);
+            carry = (carry + a[i] - 48 + b[i] - 48) / 2;
+        }
+        if (carry == 1) {
+            sprintf(t, "%d", 1);
+            strcat(t, rlt);
+            strcpy(rlt, t);
+        }
+        strcpy(rlt, strstr(rlt, "1") == NULL ? "0" : strstr(rlt, "1"));
+        printf("%s\n", rlt);
     }
-    if (carry == 1) {
-        strcpy(temp, "1");
-        strcat(temp, res);
-        strcpy(res, temp);
-    }
-    strcpy(res, strstr(res, "1") == NULL ? "0" : strstr(res, "1"));
-    printf("%s\n", res);
     return 0;
 }
