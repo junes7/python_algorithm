@@ -1,28 +1,25 @@
-#include <algorithm>
 #include <iostream>
 using namespace std;
 int main(void) {
-    int carry = 0, total;
-    string a, b, temp = "";
-    cin >> a >> b;
-    if (a.length() < b.length()) swap(a, b);
-    while (a.size() != b.size()) b = '0' + b;
-    for (int i = a.size() - 1; i >= 0; i--) {
-        total = (a[i] - 48) + (b[i] - 48);
-        if (carry + total == 3 or carry + total == 1) {
-            temp = '1' + temp;
-            carry = carry + total == 3 ? 1 : 0;
-        } else if (carry + total == 2 or carry + total == 0) {
-            temp = '0' + temp;
-            carry = carry + total == 2 ? 1 : 0;
+    int carry = 0;
+    string a, b, rlt;
+    for (int i = 0; i < 1; i++) {
+        cin >> a >> b;
+        rlt = "";
+        if (a.size() < b.size()) swap(a, b);
+        while (a.size() != b.size()) b = '0' + b;
+        for (int i = a.size() - 1; i >= 0; i--) {
+            rlt = to_string((carry + a[i] - 48 + b[i] - 48) % 2) + rlt;
+            carry = (carry + a[i] - 48 + b[i] - 48) / 2;
         }
+        if (carry > 0)
+            rlt = '1' + rlt;
+        if (rlt.find('1') >= 80) {
+            rlt = "0";
+        } else {
+            rlt.erase(0, rlt.find('1'));
+        }
+        cout << rlt << "\n";
     }
-    if (carry == 1) temp = '1' + temp;
-    if (temp.find('1') >= 80) {
-        temp = "0";
-    } else {
-        temp.erase(0, temp.find('1'));
-    }
-    cout << temp << "\n";
     return 0;
 }
