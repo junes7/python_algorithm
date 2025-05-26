@@ -6,5 +6,5 @@ for c in a:
     sa+=int(c)
 for c in b:
     sb+=int(c)
-wa,wb=len(a)*sa,len(b)*sb
-print(0 if wa==wb else 1 if wa>wb else 2)
+sa,sb=len(a)*sa,len(b)*sb
+print(0 if sa==sb else 1 if sa>sb else 2)
