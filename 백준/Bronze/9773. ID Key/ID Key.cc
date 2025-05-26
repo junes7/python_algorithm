@@ -3,11 +3,11 @@ using namespace std;
 int main(void) {
     int n;
     long long s;
-    string st, t;
+    string st;
     cin >> n;
     for (int i = 0; i < n; i++) {
         cin >> st;
-        s = 0, t = "";
+        s = 0;
         for (int j = 0; j < st.size(); j++)
             s += st[j] - 48;
         s += stoll(st.substr(st.size() - 3)) * 10;
