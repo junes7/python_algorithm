@@ -1,11 +1,8 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-c, m = [0 for i in range(3)], [0 for i in range(3)]
-for i in range(3):
-    c[i], m[i] = map(int, input().split())
+arr=[[*map(int,input().split())] for _ in range(3)]
 for i in range(100):
-    idx = i % 3
-    next_idx = (idx + 1) % 3
-    m[idx], m[next_idx] = max(m[idx] - (c[next_idx] - m[next_idx]), 0), min(c[next_idx], m[idx] + m[next_idx])
-for num in m:
-    print(num)
+    idx,nidx=i%3,(i+1)%3
+    arr[idx][1],arr[nidx][1]=max(arr[idx][1]-(arr[nidx][0]-arr[nidx][1]),0),min(arr[nidx][0],arr[idx][1]+arr[nidx][1])
+for c in arr:
+    print(c[1])
