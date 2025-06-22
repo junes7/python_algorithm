@@ -32,7 +32,7 @@ int main(void) {
         f[i] = f[i - 1] + f[i - 2];
     for (int i = 0; i < t; i++) {
         cin >> k >> x;
-        cout << (solve(f, k, x) == 1 ? "YES" : "NO") << "\n";
+        cout << (solve(f, k, x) ? "YES" : "NO") << "\n";
     }
     return 0;
 }
