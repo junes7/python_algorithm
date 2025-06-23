@@ -14,8 +14,8 @@ int main(void) {
         reverse(st.begin(), st.end());
         for (int j = i; j < n; j++) {
             if (st == words[j]) {
-                len = words[i].size();
-                cout << len << ' ' << words[i][len / 2];
+                len = words[j].size();
+                cout << len << ' ' << words[j][len / 2];
                 break;
             }
         }
