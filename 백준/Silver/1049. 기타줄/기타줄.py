@@ -1,23 +1,16 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-n, m = map(int, input().split())
-package = []
-single = []
+n,m=map(int,input().split())
+p_list,e_list=[],[]
 for _ in range(m):
-    a, b = map(int, input().split())
-    package.append(a)
-    single.append(b)
-min_package = min(package)
-ans = 0
-while n > 0:
-    if n >= 6:
-        min_single = min(single)*6
-        n -= 6
+    pack,each=map(int,input().split())
+    p_list.append(pack)
+    e_list.append(each)
+min_p,min_e=min(p_list),min(e_list)
+if min_p>=min_e*6:
+    print(min_e*n)
+else:
+    if min_p<min_e*(n%6):
+        print(min_p*(n//6+1))
     else:
-        min_single = min(single)*n
-        n -= n
-    if min_single < min_package:
-        ans += min_single
-    else:
-        ans += min_package
-print(ans)
+        print(min_p*(n//6)+min_e*(n%6))
