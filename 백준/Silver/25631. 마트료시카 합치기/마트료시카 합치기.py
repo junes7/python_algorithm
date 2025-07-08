@@ -1,7 +1,7 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
 n=int(input())
-arr=sorted([*map(int,input().split())])
+arr=[*map(int,input().split())]
 dic,rlt={},0
 for c in arr:
     dic[c]=dic.get(c,0)+1
