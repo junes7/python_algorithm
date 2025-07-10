@@ -1,14 +1,10 @@
-x = int(input())
-
-stick = [64, 32, 16, 8, 4, 2, 1]
-count = 0
-
+import sys
+input=lambda:sys.stdin.readline().rstrip()
+x=int(input())
+stick=[2**(6-i) for i in range(7)]
+cnt=0
 for i in range(len(stick)):
-    if x >= stick[i]:
-        count += 1
+    if x>0 and x >= stick[i]:
+        cnt += 1
         x -= stick[i]
-
-    if x == 0:
-        break
-
-print(count)
+print(cnt)
