@@ -4,10 +4,10 @@ n,m=map(int,input().split())
 arr=[*map(int,input().split())]
 wgh,cnt=0,1
 if n>0:
-    for box in arr:
-        wgh+=box
+    for i in range(n-1,-1,-1):
+        wgh+=arr[i]
         if wgh>m:
-            wgh=box
+            wgh=arr[i]
             cnt+=1
     print(cnt)
 else:
