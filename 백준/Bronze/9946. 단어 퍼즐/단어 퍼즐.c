@@ -9,13 +9,13 @@ int cmp(const void *pa, const void *pb) {
 int main(void) {
     char *a = (char *)malloc(sizeof(char) * 1001);
     char *b = (char *)malloc(sizeof(char) * 1001);
-    int i = 1, lena, lenb;
+    int i = 1, *len = (int *)malloc(sizeof(int) * 2);
     while (1) {
         scanf("%s %s", a, b);
         if (strcmp(a, "END") == 0 && strcmp(b, "END") == 0) break;
-        lena = strlen(a), lenb = strlen(b);
-        qsort(a, lena, sizeof(char), cmp);
-        qsort(b, lenb, sizeof(char), cmp);
+        len[0] = strlen(a), len[1] = strlen(b);
+        qsort(a, len[0], sizeof(char), cmp);
+        qsort(b, len[1], sizeof(char), cmp);
         printf("Case %d: %s\n", i++, strcmp(a, b) == 0 ? "same" : "different");
     }
     return 0;
