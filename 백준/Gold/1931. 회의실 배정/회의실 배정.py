@@ -1,11 +1,18 @@
 import sys
-n=int(sys.stdin.readline())
-time=[list(map(int,sys.stdin.readline().split())) for i in range(n)]
-time.sort(key=lambda x:(x[1],x[0]));
-start,end,cnt=time[0][0],time[0][1],1
-for i in range(1,n):
-    if end<=time[i][0]:
-        start=time[i][0]
-        end=time[i][1]
-        cnt+=1
-print(cnt)
+input=lambda:sys.stdin.readline().rstrip()
+def max_meetings(meetings):
+    # 회의 시간을 끝나는 시간 기준으로 정렬
+    meetings.sort(key=lambda x:(x[1],x[0]))
+    count = 0
+    last_end_time = 0
+    for start, end in meetings:
+        if start>=last_end_time:
+            count += 1
+            last_end_time=end
+    return count
+def main():
+    n = int(input())
+    meetings = [[*map(int,input().split())] for i in range(n)]
+    print(max_meetings(meetings))
+if __name__ == "__main__":
+    main()
