@@ -8,4 +8,4 @@ for i in range(8):
         total_B+=point[i]
     else:
         total_R+=point[i]
-print("Red" if total_B<total_R else "Blue") 
+print("Red" if total_B<total_R else "Blue")
