@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 int main(void) {
-    int t, n, len, idx;
+    int t, n, idx;
     long long a, tmp;
     bool flag;
     scanf("%d", &t);
