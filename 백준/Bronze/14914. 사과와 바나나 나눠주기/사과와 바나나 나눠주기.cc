@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 int gcd(int x, int y) {
     return x % y == 0 ? y : gcd(y, x % y);
