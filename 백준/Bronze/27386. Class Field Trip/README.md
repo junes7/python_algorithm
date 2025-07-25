@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 108384 KB, 시간: 88 ms
+메모리: 1116 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 7월 25일 16:43:00
+2025년 7월 25일 18:12:04
 
 ### 문제 설명
 
@@ -22,7 +22,7 @@
 
 ### 입력 
 
- <p>Input consists of exactly two lines. Each line contains a string of from $1$ to $100$ lower case letters. These are ann's and ben's lists.</p>
+ <p>Input consists of exactly two lines. Each line contains a string of from <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$1$</span></mjx-container> to <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c30"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>100</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$100$</span></mjx-container> lower case letters. These are ann's and ben's lists.</p>
 
 ### 출력 
 
