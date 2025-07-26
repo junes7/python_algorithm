@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 111328 KB, 시간: 108 ms
+메모리: 2032 KB, 시간: 4 ms
 
 ### 분류
 
@@ -12,13 +12,13 @@
 
 ### 제출 일자
 
-2025년 7월 26일 17:41:06
+2025년 7월 26일 17:50:07
 
 ### 문제 설명
 
 <p>You’ve been put in charge of reorganizing the inventory at Amalgamated, Inc. AI has factories at various sites around the country, each site manufacturing different sets of products. Currently, each site has all of their products stored in a row of warehouses, with each warehouse storing one type of product. Your idea is to move these products around so that the warehouses store the items in alphabetical order. For example, one site which manufactures xylophones, q-tips, zeppelins and jump ropes stores them in four warehouses as shown at the top of the following figure:</p>
 
-<p style="text-align: center;"><img alt="" src="" style="height:230px; width:501px"></p>
+<p style="text-align: center;"><img alt="" src="https://www.acmicpc.net/upload/images2/cost.png" style="height:230px; width:501px"></p>
 
 <p>The arrows show how far each product would have to be moved in order for the warehouse to store them in alphabetical order, which is shown at the bottom of the figure.</p>
 
