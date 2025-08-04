@@ -1,5 +1,10 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-for _ in range(int(input())):
-    st=input()
-    print("skipped" if '=' in st else eval(st))
+n = int(input())
+for _ in range(n) :
+    data = input()
+    if data == 'P=NP' :
+        print('skipped')
+    else :
+        a, b = map(int, data.split('+'))
+        print(a + b)
