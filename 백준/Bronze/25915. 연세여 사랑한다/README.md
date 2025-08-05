@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 108384 KB, 시간: 84 ms
+메모리: 2020 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 8월 5일 21:26:37
+2025년 8월 5일 21:33:52
 
 ### 문제 설명
 
@@ -26,7 +26,7 @@
 
 <p>고려대학교 학생 훈규는 2022 정기 연고전에서 열심히 응원을 하다가 정신을 잃고 깨어나 보니 연세대학교의 감옥에 갇혀 있었다. 훈규가 감옥을 탈출하기 위해서는 바닥에 깔린 비밀번호 석판을 이용해서 비밀번호 "<span style="color:#e74c3c;"><code>ILOVEYONSEI</code></span>"를 입력해야 한다.</p>
 
-<p>비밀번호 석판은 총 26가지의 석판이 일렬로 나열되어 있고, 각각 알파벳 대문자가 왼쪽부터 알파벳 순서대로 적혀 있다. 즉, $i$번째 석판에는 $i$번째 알파벳 대문자가 적혀 있다. 인접한 석판의 거리는 1이다. 따라서 <span style="color:#e74c3c;"><code>A</code></span>가 적힌 석판에서 출발해<span style="color:#e74c3c;"><code>Z</code></span>가 적힌 석판에 도착하기 위해서는 25의 거리를 이동해야 한다. 원하는 알파벳을 입력하려면 해당 알파벳이 적혀 있는 석판 위에 올라가 점프해야 한다. 점프는 0의 거리를 이동한다.</p>
+<p>비밀번호 석판은 총 26가지의 석판이 일렬로 나열되어 있고, 각각 알파벳 대문자가 왼쪽부터 알파벳 순서대로 적혀 있다. 즉, <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D456 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$i$</span></mjx-container>번째 석판에는 <mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D456 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$i$</span></mjx-container>번째 알파벳 대문자가 적혀 있다. 인접한 석판의 거리는 1이다. 따라서 <span style="color:#e74c3c;"><code>A</code></span>가 적힌 석판에서 출발해<span style="color:#e74c3c;"><code>Z</code></span>가 적힌 석판에 도착하기 위해서는 25의 거리를 이동해야 한다. 원하는 알파벳을 입력하려면 해당 알파벳이 적혀 있는 석판 위에 올라가 점프해야 한다. 점프는 0의 거리를 이동한다.</p>
 
 <p>훈규가 현재 위치한 석판의 알파벳이 주어진다. 훈규는 최소로 이동해 비밀번호를 모두 입력하고자 한다.</p>
 
@@ -34,7 +34,7 @@
 
  <p>입력은 아래와 같이 주어진다.</p>
 
-<div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">$c$</div>
+<div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;"><mjx-container class="MathJax" jax="CHTML" style="font-size: 108.9%; position: relative;"> <mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D450 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$c$</span> </mjx-container></div>
 
 ### 출력 
 
