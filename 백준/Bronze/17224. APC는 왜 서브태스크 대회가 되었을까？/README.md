@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 109544 KB, 시간: 92 ms
+메모리: 2024 KB, 시간: 0 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2025년 8월 15일 23:55:48
+2025년 8월 16일 17:41:22
 
 ### 문제 설명
 
@@ -24,7 +24,7 @@
 
 <p>위와 같이 문제를 준비하면 프로그래밍 대회에 익숙하지 않은 사람은 앞에서부터 따라가면서 도전해볼 수 있어 쉬운 문제를 찾는 데 시간을 쓰지 않을 수 있고, 어려운 버전으로 학교 대표 선발을 위한 변별력을 유지할 수 있으며, 모든 문제가 읽히길 바라는 출제진의 소망도 이룰 수 있을 것이다!</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 920px; height: 203px;"></p>
+<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/26df1ce0-c71b-4fa8-8954-2f2f503900e9/-/preview/" style="width: 920px; height: 203px;"></p>
 
 <p style="text-align: center;"><그림1> 출제중 평가한 문제들의 난이도 예시 (예제2)</p>
 
