@@ -1,5 +1,10 @@
 import sys
 input=lambda:sys.stdin.readline().rstrip()
-from datetime import datetime
 d,m=map(int,input().split())
-print(datetime(year=2009,month=m,day=d).strftime("%A"))
+days=[31,28,31,30,31,30,31,31,30,31,30,31]
+weekdays=['Thursday','Friday','Saturday','Sunday','Monday','Tuesday','Wednesday']
+total=0
+for i in range(m-1):
+    total+=days[i]
+total+=d-1
+print(weekdays[total%7])
