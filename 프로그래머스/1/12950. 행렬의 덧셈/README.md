@@ -1,10 +1,10 @@
 # [level 1] 행렬의 덧셈 - 12950 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12950?language=cpp) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12950?language=java) 
 
 ### 성능 요약
 
-메모리: 74.8 MB, 시간: 59.24 ms
+메모리: 109 MB, 시간: 10.92 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 10일 11:15:08
+2025년 09월 25일 10:11:17
 
 ### 문제 설명
 
