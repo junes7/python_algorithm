@@ -19,7 +19,7 @@ vector<int> solution(int k, vector<int> score) {
             }
         }
         sort(t.begin(),t.end(),less<int>());
-        r.push_back(*min_element(t.begin(),t.end()));
+        r.push_back(t[0]);
     }
     return r;
 }
