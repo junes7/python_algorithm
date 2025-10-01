@@ -9,5 +9,5 @@ def solution(k, score):
                     t[j]=s
                     break
         t.sort()
-        r+=[min(t)]
+        r+=[t[0]]
     return r
