@@ -1,6 +1,6 @@
 # [level 1] 로또의 최고 순위와 최저 순위 - 77484 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77484?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77484) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 04일 12:21:03
+2025년 10월 04일 12:21:19
 
 ### 문제 설명
 
