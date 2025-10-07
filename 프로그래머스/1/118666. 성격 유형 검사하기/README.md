@@ -1,10 +1,10 @@
 # [level 1] 성격 유형 검사하기 - 118666 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=c) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/118666?language=java) 
 
 ### 성능 요약
 
-메모리: 4.21 MB, 시간: 0.02 ms
+메모리: 87.2 MB, 시간: 0.94 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 10일 23:13:18
+2025년 10월 07일 10:52:30
 
 ### 문제 설명
 
@@ -134,25 +134,42 @@
 <li>1 ≤ <code>choices</code>의 원소 ≤ 7</li>
 </ul></li>
 </ul>
-
-<p>| <code>choices</code> | 뜻 |</p>
-
-<p>| --- | --- |</p>
-
-<p>| 1 | 매우 비동의 |</p>
-
-<p>| 2 | 비동의 |</p>
-
-<p>| 3 | 약간 비동의 |</p>
-
-<p>| 4 | 모르겠음 |</p>
-
-<p>| 5 | 약간 동의 |</p>
-
-<p>| 6 | 동의 |</p>
-
-<p>| 7 | 매우 동의 |</p>
-
+<table class="table">
+        <thead><tr>
+<th><code>choices</code></th>
+<th>뜻</th>
+</tr>
+</thead>
+        <tbody><tr>
+<td>1</td>
+<td>매우 비동의</td>
+</tr>
+<tr>
+<td>2</td>
+<td>비동의</td>
+</tr>
+<tr>
+<td>3</td>
+<td>약간 비동의</td>
+</tr>
+<tr>
+<td>4</td>
+<td>모르겠음</td>
+</tr>
+<tr>
+<td>5</td>
+<td>약간 동의</td>
+</tr>
+<tr>
+<td>6</td>
+<td>동의</td>
+</tr>
+<tr>
+<td>7</td>
+<td>매우 동의</td>
+</tr>
+</tbody>
+      </table>
 <hr>
 
 <h5>입출력 예</h5>
