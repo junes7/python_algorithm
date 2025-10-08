@@ -18,6 +18,7 @@ class Solution {
             tmp = rlt[rank-1];
             rlt[rank-1]=rlt[rank];
             rlt[rank]=tmp;
+            // map 함수에 순위 반영
             map.put(rlt[rank-1],rank-1);
             map.put(rlt[rank],rank);
         }
